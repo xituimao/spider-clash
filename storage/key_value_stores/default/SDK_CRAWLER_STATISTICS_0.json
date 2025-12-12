@@ -1,0 +1,52 @@
+{
+  "requestsFinished": 40,
+  "requestsFailed": 8,
+  "requestsRetries": 8,
+  "requestsFailedPerMinute": 3,
+  "requestsFinishedPerMinute": 19,
+  "requestMinDurationMillis": 712,
+  "requestMaxDurationMillis": 7018,
+  "requestTotalFailedDurationMillis": 240036,
+  "requestTotalFinishedDurationMillis": 154406,
+  "crawlerStartedAt": "2025-12-12T10:34:38.736Z",
+  "crawlerFinishedAt": "2025-12-12T10:36:45.504Z",
+  "statsPersistedAt": "2025-12-12T10:36:45.504Z",
+  "crawlerRuntimeMillis": 126787,
+  "crawlerLastStartTimestamp": 1765535678717,
+  "requestRetryHistogram": [
+    40,
+    null,
+    null,
+    8
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 30005,
+  "requestAvgFinishedDurationMillis": 3860,
+  "requestTotalDurationMillis": 394442,
+  "requestsTotal": 48,
+  "requestsWithStatusCode": {
+    "404": 1
+  },
+  "errors": {
+    "/Users/xianshenju-design/Documents/spider-clash/node_modules/@apify/timeout/cjs/index.cjs:64:68": {
+      "missing error code": {
+        "Error": {
+          "request timed out after 30 seconds.": {
+            "count": 8
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "/Users/xianshenju-design/Documents/spider-clash/node_modules/@apify/timeout/cjs/index.cjs:64:68": {
+      "missing error code": {
+        "Error": {
+          "request timed out after 30 seconds.": {
+            "count": 24
+          }
+        }
+      }
+    }
+  }
+}
