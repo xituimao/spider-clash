@@ -25,6 +25,7 @@ export default {
     crawler: {
         maxRequestsPerCrawl: 50,
         requestTimeoutSecs: 30,
+        maxDepth: 2, // 爬取深度: 1=只爬当前页, 2=爬当前页+它包含的链接
     },
 
     // 验证设置

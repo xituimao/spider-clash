@@ -119,11 +119,21 @@ export async function crawlSources() {
                         console.error(`Failed to fetch sub-link ${subLink}: ${err.message}`);
                     }
                 }
-                // 3. 通配符模式匹配：如果有配置通配符，尝试从当前页面发现匹配的链接并入队
+                // 3. 递归控制：检查深度
+                const currentDepth = request.userData.depth || 1;
+                if (currentDepth >= config.crawler.maxDepth) {
+                    console.log(`Reached max depth (${currentDepth}) for ${request.url}`);
+                    return;
+                }
+
+                // 4. 通配符模式匹配：如果有配置通配符，尝试从当前页面发现匹配的链接并入队
                 if (globs.length > 0) {
                     await enqueueLinks({
                         globs: globs,
-                        label: 'wildcard-match'
+                        label: 'wildcard-match',
+                        userData: {
+                            depth: currentDepth + 1
+                        }
                     });
                 }
             },
