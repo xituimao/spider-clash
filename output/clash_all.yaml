@@ -31,42 +31,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 中国 V2CROSS.COM - undefinedms
+  - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: hgtrojan.zabc.net
+    port: 2083
+    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
     alterId: 0
     cipher: auto
-    tls: false
-    network: tcp
-  - name: 尼日利亚 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 尼日利亚 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 160.119.196.92
-    port: 36334
-    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+    tls: true
+    network: ws
+    ws-opts:
+      path: /e6395c20
+      headers:
+        Host: hgtrojan.zabc.net
   - name: 新加坡 V2CROSS.COM - undefinedms
     type: vmess
     server: 68.183.178.131
@@ -537,6 +514,15 @@ proxies:
       path: /tg@hkaa0
       headers:
         Host: 107.167.182.230
+  - name: 🇨🇳 中国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
     type: vmess
     server: flkf2.shabijichang.com
@@ -576,15 +562,6 @@ proxies:
       path: /
       headers:
         Host: ld2.shabijichang.com
-  - name: 🇬🇧 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
     type: vmess
     server: 104.17.18.26
@@ -637,6 +614,15 @@ proxies:
       path: /
       headers:
         Host: mm3.shabijichang.com
+  - name: 🇳🇬 尼日利亚 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 160.119.196.92
+    port: 36334
+    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
   - name: 🇳🇱 _US_美国->🇳🇱_NL_荷兰 - undefinedms
     type: vmess
     server: 45.199.138.191
@@ -968,10 +954,7 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 中国 V2CROSS.COM - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 新加坡 V2CROSS.COM - undefinedms
       - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1010,14 +993,15 @@ proxy-groups:
       - 🇺🇸US-3.89.216.162-1754 - undefinedms
       - 🇨🇦 _CA_加拿大 - undefinedms
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
+      - 🇨🇳 中国 V2CROSS.COM - undefinedms
       - 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
-      - 🇬🇧 英国 V2CROSS.COM - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_3 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_4 - undefinedms
+      - 🇳🇬 尼日利亚 V2CROSS.COM - undefinedms
       - 🇳🇱 _US_美国->🇳🇱_NL_荷兰 - undefinedms
       - 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯 - undefinedms
       - 🇺🇸 _US_美国_1 - undefinedms
@@ -1051,10 +1035,7 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 中国 V2CROSS.COM - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
-      - 尼日利亚 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 新加坡 V2CROSS.COM - undefinedms
       - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1093,14 +1074,15 @@ proxy-groups:
       - 🇺🇸US-3.89.216.162-1754 - undefinedms
       - 🇨🇦 _CA_加拿大 - undefinedms
       - 🇨🇳 _TW_台湾->🇺🇸_US_美国 - undefinedms
+      - 🇨🇳 中国 V2CROSS.COM - undefinedms
       - 🇩🇪 _US_美国->🇩🇪_DE_德国 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_1 - undefinedms
       - 🇬🇧 _US_美国->🇬🇧_GB_英国_2 - undefinedms
-      - 🇬🇧 英国 V2CROSS.COM - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_1 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_2 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_3 - undefinedms
       - 🇮🇳 _US_美国->🇮🇳_IN_印度_4 - undefinedms
+      - 🇳🇬 尼日利亚 V2CROSS.COM - undefinedms
       - 🇳🇱 _US_美国->🇳🇱_NL_荷兰 - undefinedms
       - 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯 - undefinedms
       - 🇺🇸 _US_美国_1 - undefinedms
