@@ -40,19 +40,6 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 日本 东京阿里云 - undefinedms
-    type: vmess
-    server: n1753598452.wpg27.xyz
-    port: 443
-    uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1753598452.wpg27.xyz
   - name: 香港 电讯盈科有限公司 - undefinedms
     type: vmess
     server: v12.hdacd.com
@@ -62,20 +49,20 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 尼日利亚 V2CROSS.COM - undefinedms
     type: vmess
     server: 160.119.196.92
     port: 36334
     uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 中国 阿里云 - undefinedms
-    type: vmess
-    server: 8.217.90.175
-    port: 51000
-    uuid: 6c82a994-b6ba-48ca-f2ed-11288fe4913b
     alterId: 0
     cipher: auto
     tls: false
@@ -141,6 +128,19 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
+  - name: 🇲🇾MY_1|3.6MB/s - undefinedms
+    type: vmess
+    server: 23.27.28.103
+    port: 80
+    uuid: rootface-@pwn1337-🎄
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /𒉭𓆩@rootface𒆜 Merry Christmas 🎄🥳🎁𒉭 @pwn_1337 TELEGRAM
+      headers:
+        Host: 23.27.28.103
   - name: 英国 伦敦DigitalOcean数据中心 - undefinedms
     type: vmess
     server: cg1c16.waimaojd.com
@@ -740,15 +740,15 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 日本 东京阿里云 - undefinedms
       - 香港 电讯盈科有限公司 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 尼日利亚 V2CROSS.COM - undefinedms
-      - 中国 阿里云 - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - 🇲🇾MY_1|3.6MB/s - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -806,15 +806,15 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 日本 东京阿里云 - undefinedms
       - 香港 电讯盈科有限公司 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 尼日利亚 V2CROSS.COM - undefinedms
-      - 中国 阿里云 - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
+      - 🇲🇾MY_1|3.6MB/s - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
