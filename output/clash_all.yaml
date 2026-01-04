@@ -92,6 +92,15 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 尼日利亚 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 160.119.196.92
+    port: 36334
+    uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
   - name: 香港 电讯盈科有限公司 - undefinedms
     type: vmess
     server: v12.hdacd.com
@@ -101,20 +110,20 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 216.238.87.47
-    port: 27502
-    uuid: b8155ce4-7e08-4c40-800f-8671312b7124
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 香港 电讯盈科有限公司 - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     tls: false
@@ -463,6 +472,72 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇭🇰HK_1|1.1MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 🇭🇰HK_2|1.3MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 🇭🇰HK_3|1.5MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 🇫🇷 法国 09 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸 US_188 - undefinedms
+    type: vmess
+    server: 216.238.87.47
+    port: 27502
+    uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
   - name: 🇨🇳|CN|@clashjd|1 - undefinedms
     type: vmess
     server: hk16.ssylianjie1.com
@@ -684,33 +759,6 @@ proxies:
       path: /
       headers:
         Host: hk20.ssylianjie2.com
-  - name: 🇫🇷 法国 09 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸 US_188 - undefinedms
-    type: vmess
-    server: 216.238.87.47
-    port: 27502
-    uuid: b8155ce4-7e08-4c40-800f-8671312b7124
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -722,9 +770,10 @@ proxy-groups:
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 尼日利亚 V2CROSS.COM - undefinedms
       - 香港 电讯盈科有限公司 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -753,6 +802,12 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇭🇰HK_1|1.1MB/s - undefinedms
+      - 🇭🇰HK_2|1.3MB/s - undefinedms
+      - 🇭🇰HK_3|1.5MB/s - undefinedms
+      - 🇫🇷 法国 09 - undefinedms
+      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
+      - 🇺🇸 US_188 - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -770,9 +825,6 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
-      - 🇫🇷 法国 09 - undefinedms
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
-      - 🇺🇸 US_188 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -786,9 +838,10 @@ proxy-groups:
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 尼日利亚 V2CROSS.COM - undefinedms
       - 香港 电讯盈科有限公司 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
       - 美国 华盛顿Cogent通信公司 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -817,6 +870,12 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇭🇰HK_1|1.1MB/s - undefinedms
+      - 🇭🇰HK_2|1.3MB/s - undefinedms
+      - 🇭🇰HK_3|1.5MB/s - undefinedms
+      - 🇫🇷 法国 09 - undefinedms
+      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
+      - 🇺🇸 US_188 - undefinedms
       - 🇨🇳|CN|@clashjd|1 - undefinedms
       - 🇨🇳|CN|@clashjd|2 - undefinedms
       - 🇨🇳|CN|@clashjd|5 - undefinedms
@@ -834,8 +893,5 @@ proxy-groups:
       - 🇨🇳|CN|@clashjd|83 - undefinedms
       - 🇨🇳|CN|@clashjd|89 - undefinedms
       - 🇨🇳|CN|@clashjd|104 - undefinedms
-      - 🇫🇷 法国 09 - undefinedms
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1 - undefinedms
-      - 🇺🇸 US_188 - undefinedms
 rules:
   - MATCH,Proxy
