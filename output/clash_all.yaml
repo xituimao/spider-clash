@@ -5,6 +5,32 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: TG-@vvkj11 - undefinedms
+    type: vmess
+    server: 23.227.39.11
+    port: 8080
+    uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /1IKYjV0r/
+      headers:
+        Host: dongtaiwang15.dtku47.xyz
+  - name: TG-@vvkj11 - undefinedms
+    type: vmess
+    server: 109.104.152.220
+    port: 23099
+    uuid: 5e3ce6a7-170e-4939-9aae-c8fefb35a7ea
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /HzuOihB6/
+      headers:
+        Host: 109.104.152.220
   - name: 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
     type: vmess
     server: c12c42a5-t6ngg0-t6vxb7-zn8y.hk3.p5pv.com
@@ -66,32 +92,19 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
-  - name: TG-@vvkj11 - undefinedms
+  - name: 澳大利亚 V2CROSS.COM - undefinedms
     type: vmess
-    server: 23.227.39.11
-    port: 8080
-    uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+    server: dv4.789900.xyz
+    port: 2096
+    uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     network: ws
     ws-opts:
-      path: /1IKYjV0r/
+      path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
       headers:
-        Host: dongtaiwang15.dtku47.xyz
-  - name: TG-@vvkj11 - undefinedms
-    type: vmess
-    server: 109.104.152.220
-    port: 23099
-    uuid: 5e3ce6a7-170e-4939-9aae-c8fefb35a7ea
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /HzuOihB6/
-      headers:
-        Host: 109.104.152.220
+        Host: dv4.789900.xyz
   - name: 香港 CDN520加速节点(BGP)数据中心 - undefinedms
     type: vmess
     server: sv2.wy888.us
@@ -105,33 +118,19 @@ proxies:
       path: /vmess
       headers:
         Host: sv2.wy888.us
-  - name: 🇭🇰HK_1|1.3MB/s - undefinedms
+  - name: 韩国 首尔Oracle云计算数据中心 - undefinedms
     type: vmess
-    server: oss-4.qqa678.com
-    port: 47081
-    uuid: e49b8721-f124-4999-814a-fc777c0ae190
+    server: lv4.789900.xyz
+    port: 2087
+    uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
     alterId: 0
     cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_4|1.8MB/s - undefinedms
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_7|2.9MB/s - undefinedms
-    type: vmess
-    server: tunnel1.qqa678.com
-    port: 47084
-    uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+    tls: true
+    network: ws
+    ws-opts:
+      path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+      headers:
+        Host: lv4.789900.xyz
   - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
     type: vmess
     server: 156.233.232.177
@@ -463,21 +462,72 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇫🇷FR_1|1.3MB/s - undefinedms
+    type: vmess
+    server: zula.ir
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-511952424.mcitel.co
+  - name: '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
+    type: vmess
+    server: zula.ir
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: nasnet-511952424.mcitel.co
+  - name: 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
+    type: vmess
+    server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+    port: 80
+    uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+  - name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
+    type: vmess
+    server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+    port: 80
+    uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 澳大利亚 V2CROSS.COM - undefinedms
       - 香港 CDN520加速节点(BGP)数据中心 - undefinedms
-      - 🇭🇰HK_1|1.3MB/s - undefinedms
-      - 🇺🇸US_4|1.8MB/s - undefinedms
-      - 🇺🇸US_7|2.9MB/s - undefinedms
+      - 韩国 首尔Oracle云计算数据中心 - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -505,23 +555,26 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇫🇷FR_1|1.3MB/s - undefinedms
+      - '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
+      - 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
       - 🇨🇳CN-14.17.71.237-2882 - undefinedms
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 澳大利亚 V2CROSS.COM - undefinedms
       - 香港 CDN520加速节点(BGP)数据中心 - undefinedms
-      - 🇭🇰HK_1|1.3MB/s - undefinedms
-      - 🇺🇸US_4|1.8MB/s - undefinedms
-      - 🇺🇸US_7|2.9MB/s - undefinedms
+      - 韩国 首尔Oracle云计算数据中心 - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -549,5 +602,9 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇫🇷FR_1|1.3MB/s - undefinedms
+      - '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
+      - 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
 rules:
   - MATCH,Proxy
