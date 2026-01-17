@@ -5,42 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: TG-@vvkj11 - 3ms
-    type: vmess
-    server: 23.227.39.11
-    port: 8080
-    uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /1IKYjV0r/
-      headers:
-        Host: dongtaiwang15.dtku47.xyz
-  - name: 美国 CloudFlare节点 - 21ms
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: t1.620720.xyz
-  - name: 中国 阿里云 - 197ms
-    type: vmess
-    server: 8.217.90.175
-    port: 51000
-    uuid: 6c82a994-b6ba-48ca-f2ed-11288fe4913b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 286ms
+  - name: 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 243ms
     type: vmess
     server: v8.hdacd.com
     port: 30808
@@ -49,7 +14,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰HK-203.198.28.145-1002 - 681ms
+  - name: 🇭🇰HK-203.198.28.145-1002 - 528ms
     type: vmess
     server: aflzzul.meiquankongjian.com
     port: 52513
@@ -62,29 +27,29 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
-  - name: 🇭🇰HK_4|3.4MB/s - 259ms
+  - name: TG-@vvkj11 - 2ms
     type: vmess
-    server: hkt.gotochinatown.net
-    port: 80
-    uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-    alterId: 2
+    server: 23.227.39.11
+    port: 8080
+    uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+    alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /1IKYjV0r/
       headers:
-        Host: hkt.gotochinatown.net
-  - name: 🇺🇸US_1|3.1MB/s - 68ms
+        Host: dongtaiwang15.dtku47.xyz
+  - name: 美国 V2CROSS.COM - 49ms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 216.238.86.158
+    port: 34460
+    uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 美国 CloudFlare节点 - 442ms
+    network: none
+  - name: 美国 CloudFlare节点 - 376ms
     type: vmess
     server: cf.fovi.tk
     port: 443
@@ -97,7 +62,7 @@ proxies:
       path: /eisasqa
       headers:
         Host: foxlux.fovi.tk
-  - name: 英国 伦敦DigitalOcean数据中心 - 506ms
+  - name: 英国 伦敦DigitalOcean数据中心 - 439ms
     type: vmess
     server: cg1c16.waimaojd.com
     port: 443
@@ -110,7 +75,7 @@ proxies:
       path: /api/v1/graphql
       headers:
         Host: cg1c16.waimaojd.com
-  - name: 美国 华盛顿Cogent通信公司 - 208ms
+  - name: 美国 华盛顿Cogent通信公司 - 172ms
     type: vmess
     server: 38.54.98.110
     port: 2052
@@ -119,6 +84,19 @@ proxies:
     cipher: auto
     tls: true
     network: none
+  - name: 美国 CloudFlare节点 - 350ms
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: t1.620720.xyz
   - name: 美国 CloudFlare节点 - 2ms
     type: vmess
     server: 104.21.96.1
@@ -132,7 +110,7 @@ proxies:
       path: /89c344f2
       headers:
         Host: ff.kncc2.top
-  - name: 美国 CloudFlare节点 - 3ms
+  - name: 美国 CloudFlare节点 - 2ms
     type: vmess
     server: 104.16.155.10
     port: 8880
@@ -145,7 +123,7 @@ proxies:
       path: /dabai.in104.24.185.219
       headers:
         Host: 100-151-81-36.s4.db-link01.top
-  - name: 美国 CloudFlare节点 - 389ms
+  - name: 美国 CloudFlare节点 - 433ms
     type: vmess
     server: s5.cn-db.top
     port: 2082
@@ -158,7 +136,7 @@ proxies:
       path: /dabai.in172.64.23.14
       headers:
         Host: 100-219-162-241.s5.cn-db.top
-  - name: 美国 CloudFlare节点 - 390ms
+  - name: 美国 CloudFlare节点 - 386ms
     type: vmess
     server: www.speedtest.net
     port: 80
@@ -184,7 +162,7 @@ proxies:
       path: /dabai.in104.17.169.115
       headers:
         Host: 100-49-141-209.s1.db-link02.top
-  - name: 美国 CloudFlare节点 - 3ms
+  - name: 美国 CloudFlare节点 - 2ms
     type: vmess
     server: 104.18.3.180
     port: 2053
@@ -223,7 +201,7 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 中国 - 香港 - PCCW IMS Limited - 45 - 219ms
+  - name: 中国 - 香港 - PCCW IMS Limited - 45 - 202ms
     type: vmess
     server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
     port: 80
@@ -236,7 +214,7 @@ proxies:
       path: /
       headers:
         Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
-  - name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - 225ms
+  - name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - 244ms
     type: vmess
     server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
     port: 80
@@ -253,51 +231,47 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - 3ms
-      - 美国 CloudFlare节点 - 21ms
-      - 中国 阿里云 - 197ms
-      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 286ms
-      - 🇭🇰HK-203.198.28.145-1002 - 681ms
-      - 🇭🇰HK_4|3.4MB/s - 259ms
-      - 🇺🇸US_1|3.1MB/s - 68ms
-      - 美国 CloudFlare节点 - 442ms
-      - 英国 伦敦DigitalOcean数据中心 - 506ms
-      - 美国 华盛顿Cogent通信公司 - 208ms
-      - 美国 CloudFlare节点 - 2ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 389ms
-      - 美国 CloudFlare节点 - 390ms
-      - 美国 CloudFlare节点 - 2ms
-      - 美国 CloudFlare节点 - 3ms
+      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 243ms
+      - 🇭🇰HK-203.198.28.145-1002 - 528ms
+      - TG-@vvkj11 - 2ms
+      - 美国 V2CROSS.COM - 49ms
+      - 美国 CloudFlare节点 - 376ms
+      - 英国 伦敦DigitalOcean数据中心 - 439ms
+      - 美国 华盛顿Cogent通信公司 - 172ms
+      - 美国 CloudFlare节点 - 350ms
       - 美国 CloudFlare节点 - 2ms
       - 美国 CloudFlare节点 - 2ms
-      - 中国 - 香港 - PCCW IMS Limited - 45 - 219ms
-      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - 225ms
+      - 美国 CloudFlare节点 - 433ms
+      - 美国 CloudFlare节点 - 386ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 2ms
+      - 中国 - 香港 - PCCW IMS Limited - 45 - 202ms
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - 244ms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - 3ms
-      - 美国 CloudFlare节点 - 21ms
-      - 中国 阿里云 - 197ms
-      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 286ms
-      - 🇭🇰HK-203.198.28.145-1002 - 681ms
-      - 🇭🇰HK_4|3.4MB/s - 259ms
-      - 🇺🇸US_1|3.1MB/s - 68ms
-      - 美国 CloudFlare节点 - 442ms
-      - 英国 伦敦DigitalOcean数据中心 - 506ms
-      - 美国 华盛顿Cogent通信公司 - 208ms
-      - 美国 CloudFlare节点 - 2ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 389ms
-      - 美国 CloudFlare节点 - 390ms
-      - 美国 CloudFlare节点 - 2ms
-      - 美国 CloudFlare节点 - 3ms
+      - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - 243ms
+      - 🇭🇰HK-203.198.28.145-1002 - 528ms
+      - TG-@vvkj11 - 2ms
+      - 美国 V2CROSS.COM - 49ms
+      - 美国 CloudFlare节点 - 376ms
+      - 英国 伦敦DigitalOcean数据中心 - 439ms
+      - 美国 华盛顿Cogent通信公司 - 172ms
+      - 美国 CloudFlare节点 - 350ms
       - 美国 CloudFlare节点 - 2ms
       - 美国 CloudFlare节点 - 2ms
-      - 中国 - 香港 - PCCW IMS Limited - 45 - 219ms
-      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - 225ms
+      - 美国 CloudFlare节点 - 433ms
+      - 美国 CloudFlare节点 - 386ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 2ms
+      - 中国 - 香港 - PCCW IMS Limited - 45 - 202ms
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - 244ms
 rules:
   - MATCH,Proxy
