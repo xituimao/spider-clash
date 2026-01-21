@@ -5,6 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: t1.620720.xyz
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 香港 阿里云 - undefinedms
+    type: vmess
+    server: 47.242.192.233
+    port: 52190
+    uuid: 98689724-deb2-4a3d-b83b-602221995baf
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 美国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 206.119.191.9
+    port: 7100
+    uuid: 10853485-26e1-477b-d257-58a3f4873db3
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -92,12 +132,43 @@ proxies:
       path: /564dfa20/
       headers:
         Host: aflzzul.meiquankongjian.com
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 🇩🇪DE_1|2.1MB/s - undefinedms
+    type: vmess
+    server: 104.18.32.47
+    port: 443
+    uuid: 52c7f779-2cbc-4ec9-d4eb-7f62964e4a4e
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ABC
+      headers:
+        Host: 104.18.32.47
+  - name: 🇺🇸US_1|1.2MB/s - undefinedms
     type: vmess
     server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: ❓Other_1|1015KB/s - undefinedms
+    type: vmess
+    server: tunnel1.qqa678.com
+    port: 47081
+    uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_5|2.0MB/s - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     network: tcp
@@ -475,6 +546,10 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 香港 阿里云 - undefinedms
+      - 美国 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
@@ -482,7 +557,10 @@ proxy-groups:
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 🇩🇪DE_1|2.1MB/s - undefinedms
+      - 🇺🇸US_1|1.2MB/s - undefinedms
+      - ❓Other_1|1015KB/s - undefinedms
+      - 🇺🇸US_5|2.0MB/s - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -519,6 +597,10 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 香港 阿里云 - undefinedms
+      - 美国 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇭🇰HK²_49|18.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory - undefinedms
@@ -526,7 +608,10 @@ proxy-groups:
       - 🇯🇵 日本 15 - undefinedms
       - 🇺🇸US²_5|6.9MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory - undefinedms
       - 🇭🇰HK-203.198.28.145-1002 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 🇩🇪DE_1|2.1MB/s - undefinedms
+      - 🇺🇸US_1|1.2MB/s - undefinedms
+      - ❓Other_1|1015KB/s - undefinedms
+      - 🇺🇸US_5|2.0MB/s - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
