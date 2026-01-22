@@ -31,6 +31,15 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -44,32 +53,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 日本 东京阿里云 - undefinedms
-    type: vmess
-    server: n1753598451.74qxv.top
-    port: 443
-    uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1753598451.74qxv.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 4D41-b510-Fc35f2D7ECd7.664.qzz.io
-    port: 443
-    uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /pyyY4ZVTyJV3vr9noOhn
-      headers:
-        Host: 4D41-b510-fC35f2d7ecd7.664.qZz.io
   - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
     type: vmess
     server: 156.233.232.177
@@ -544,6 +527,45 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
+    type: vmess
+    server: zula.ir
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: nasnet-511952424.mcitel.co
+  - name: 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
+    type: vmess
+    server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+    port: 80
+    uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+  - name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
+    type: vmess
+    server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+    port: 80
+    uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -869,54 +891,14 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
-    type: vmess
-    server: zula.ir
-    port: 8080
-    uuid: nasnet
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /nasnet/cdn?ed=2560
-      headers:
-        Host: nasnet-511952424.mcitel.co
-  - name: 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
-    type: vmess
-    server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
-    port: 80
-    uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
-  - name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
-    type: vmess
-    server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
-    port: 80
-    uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 日本 东京阿里云 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -955,6 +937,9 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
+      - 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -980,9 +965,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
-      - 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
-      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -991,9 +973,8 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 日本 东京阿里云 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -1032,6 +1013,9 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
+      - 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
+      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1057,8 +1041,5 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - '@𝑽2_𝑴𝑶𝑫_𝑺𝑯𝑶𝑷 - 🇨🇦 ⚡ | - undefinedms'
-      - 中国 - 香港 - PCCW IMS Limited - 45 - undefinedms
-      - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅] - undefinedms
 rules:
   - MATCH,Proxy
