@@ -33,22 +33,97 @@ proxies:
         Host: 109.104.152.220
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 172.67.204.84
-    port: 8080
-    uuid: nasnet
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     network: ws
     ws-opts:
-      path: /nasnet/cdn
+      path: /
       headers:
-        Host: nasnet-511952424.mcitel.co
+        Host: t1.620720.xyz
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: sy4.620720.xyz
+    port: 443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: sy4.620720.xyz
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇭🇰HK_1|1.7MB/s - undefinedms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 🇯🇵JP_5|1.2MB/s - undefinedms
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: a1dfedd7-05dd-469a-aef8-fbc95556819a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵JP_6|2.3MB/s - undefinedms
+    type: vmess
+    server: ffiw.owwoedu.com
+    port: 59503
+    uuid: eb81a336-f35f-45ff-bd03-9dad688b8ac2
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇹🇼TW_1|2.6MB/s - undefinedms
+    type: vmess
+    server: faq1.lieerr222.cn
+    port: 43527
+    uuid: 3d3ec42c-0fcc-48c4-97d3-f26803c6a475
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇹🇼TW_2|2.1MB/s - undefinedms
+    type: vmess
+    server: faq1.lieerr222.cn
+    port: 43527
+    uuid: 750a65f6-fb0f-4e83-be1f-d0ae9fa4b0a9
     alterId: 0
     cipher: auto
     tls: false
@@ -384,45 +459,6 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇭🇰HK_1|1.2MB/s - undefinedms
-    type: vmess
-    server: 0746e6b4-t9mv40-tb08pe-luwe.hkt.gotochinatown.net
-    port: 80
-    uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-  - name: 🇭🇰HK_2|1.0MB/s - undefinedms
-    type: vmess
-    server: 7c31dbe6-t9mv40-tipjoa-1slop.hkt.gotochinatown.net
-    port: 80
-    uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -898,7 +934,14 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇭🇰HK_1|1.7MB/s - undefinedms
+      - 🇯🇵JP_5|1.2MB/s - undefinedms
+      - 🇯🇵JP_6|2.3MB/s - undefinedms
+      - 🇹🇼TW_1|2.6MB/s - undefinedms
+      - 🇹🇼TW_2|2.1MB/s - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -926,9 +969,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|1.2MB/s - undefinedms
-      - 🇭🇰HK_2|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -974,7 +1014,14 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇭🇰HK_1|1.7MB/s - undefinedms
+      - 🇯🇵JP_5|1.2MB/s - undefinedms
+      - 🇯🇵JP_6|2.3MB/s - undefinedms
+      - 🇹🇼TW_1|2.6MB/s - undefinedms
+      - 🇹🇼TW_2|2.1MB/s - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 伦敦DigitalOcean数据中心 - undefinedms
@@ -1002,9 +1049,6 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|1.2MB/s - undefinedms
-      - 🇭🇰HK_2|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
