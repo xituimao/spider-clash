@@ -18,7 +18,20 @@ proxies:
       path: /1IKYjV0r/
       headers:
         Host: dongtaiwang15.dtku47.xyz
-  - name: 美国 CloudFlare节点 - 54ms
+  - name: 美国 CloudFlare节点 - 2ms
+    type: vmess
+    server: 104.21.69.44
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-511952424.mcitel.co
+  - name: 美国 CloudFlare节点 - 21ms
     type: vmess
     server: t1.620720.xyz
     port: 8443
@@ -31,29 +44,7 @@ proxies:
       path: /
       headers:
         Host: t1.620720.xyz
-  - name: 美国 CloudFlare节点 - 17ms
-    type: vmess
-    server: sy4.620720.xyz
-    port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sy4.620720.xyz
-  - name: 英国 V2CROSS.COM - 66ms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 2ms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 3ms
     type: vmess
     server: 45.80.111.9
     port: 2082
@@ -66,7 +57,29 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 美国 CloudFlare节点 - 567ms
+  - name: 🇺🇸US_1|3.0MB/s - 64ms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK_2|1.3MB/s - 317ms
+    type: vmess
+    server: hkt.gotochinatown.net
+    port: 80
+    uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: 美国 CloudFlare节点 - 178ms
     type: vmess
     server: cf.fovi.tk
     port: 443
@@ -79,16 +92,7 @@ proxies:
       path: /eisasqa
       headers:
         Host: foxlux.fovi.tk
-  - name: 美国 华盛顿Cogent通信公司 - 960ms
-    type: vmess
-    server: 38.54.98.110
-    port: 2052
-    uuid: 665d9b8f-153d-4907-adac-de12afd9c851
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: none
-  - name: 美国 CloudFlare节点 - 566ms
+  - name: 美国 CloudFlare节点 - 134ms
     type: vmess
     server: t1.620720.xyz
     port: 8443
@@ -101,7 +105,7 @@ proxies:
       path: /
       headers:
         Host: t1.620720.xyz
-  - name: 美国 CloudFlare节点 - 3ms
+  - name: 美国 CloudFlare节点 - 2ms
     type: vmess
     server: 104.21.96.1
     port: 8443
@@ -114,7 +118,7 @@ proxies:
       path: /89c344f2
       headers:
         Host: ff.kncc2.top
-  - name: 美国 CloudFlare节点 - 2ms
+  - name: 美国 CloudFlare节点 - 3ms
     type: vmess
     server: 104.16.155.10
     port: 8880
@@ -127,7 +131,7 @@ proxies:
       path: /dabai.in104.24.185.219
       headers:
         Host: 100-151-81-36.s4.db-link01.top
-  - name: 美国 CloudFlare节点 - 497ms
+  - name: 美国 CloudFlare节点 - 838ms
     type: vmess
     server: s5.cn-db.top
     port: 2082
@@ -140,7 +144,7 @@ proxies:
       path: /dabai.in172.64.23.14
       headers:
         Host: 100-219-162-241.s5.cn-db.top
-  - name: 美国 CloudFlare节点 - 219ms
+  - name: 美国 CloudFlare节点 - 618ms
     type: vmess
     server: www.speedtest.net
     port: 80
@@ -153,7 +157,7 @@ proxies:
       path: /da87uoih
       headers:
         Host: eu-2.hihu.net
-  - name: 美国 CloudFlare节点 - 3ms
+  - name: 美国 CloudFlare节点 - 2ms
     type: vmess
     server: 104.17.221.248
     port: 80
@@ -205,7 +209,7 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇺🇸_US_美国_1 - 3ms
+  - name: 🇺🇸_US_美国_1 - 2ms
     type: vmess
     server: 104.26.0.206
     port: 2086
@@ -283,7 +287,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: m1.106778.xyz
-  - name: 🇺🇸_US_美国_11 - 21ms
+  - name: 🇺🇸_US_美国_11 - 25ms
     type: vmess
     server: 162.159.45.181
     port: 2086
@@ -296,7 +300,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: e104.808075.xyz
-  - name: 🇺🇸_US_美国_12 - 21ms
+  - name: 🇺🇸_US_美国_12 - 24ms
     type: vmess
     server: 162.159.45.77
     port: 8880
@@ -309,7 +313,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m129.106778.xyz
-  - name: 🇺🇸_US_美国_13 - 3ms
+  - name: 🇺🇸_US_美国_13 - 2ms
     type: vmess
     server: 104.26.0.87
     port: 2086
@@ -322,7 +326,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇺🇸_US_美国_1 - 3ms
+  - name: 🇺🇸_US_美国_1 - 4ms
     type: vmess
     server: 104.18.114.188
     port: 2086
@@ -374,7 +378,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_4 - 5ms
+  - name: 🇺🇸_US_美国_4 - 3ms
     type: vmess
     server: 104.18.114.118
     port: 2086
@@ -400,7 +404,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_6 - 4ms
+  - name: 🇺🇸_US_美国_6 - 3ms
     type: vmess
     server: 104.18.114.162
     port: 2086
@@ -556,7 +560,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_18 - 2ms
+  - name: 🇺🇸_US_美国_18 - 3ms
     type: vmess
     server: 104.18.114.58
     port: 2086
@@ -569,7 +573,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_19 - 4ms
+  - name: 🇺🇸_US_美国_19 - 3ms
     type: vmess
     server: 104.18.114.122
     port: 2086
@@ -626,37 +630,37 @@ proxy-groups:
     type: url-test
     proxies:
       - TG-@vvkj11 - 3ms
-      - 美国 CloudFlare节点 - 54ms
-      - 美国 CloudFlare节点 - 17ms
-      - 英国 V2CROSS.COM - 66ms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 2ms
-      - 美国 CloudFlare节点 - 567ms
-      - 美国 华盛顿Cogent通信公司 - 960ms
-      - 美国 CloudFlare节点 - 566ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 21ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 3ms
+      - 🇺🇸US_1|3.0MB/s - 64ms
+      - 🇭🇰HK_2|1.3MB/s - 317ms
+      - 美国 CloudFlare节点 - 178ms
+      - 美国 CloudFlare节点 - 134ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 3ms
+      - 美国 CloudFlare节点 - 838ms
+      - 美国 CloudFlare节点 - 618ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 3ms
       - 美国 CloudFlare节点 - 3ms
       - 美国 CloudFlare节点 - 2ms
-      - 美国 CloudFlare节点 - 497ms
-      - 美国 CloudFlare节点 - 219ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 2ms
-      - 🇺🇸_US_美国_1 - 3ms
+      - 🇺🇸_US_美国_1 - 2ms
       - 🇺🇸_US_美国_4 - 3ms
       - 🇺🇸_US_美国_7 - 24ms
       - 🇺🇸_US_美国_9 - 3ms
       - 🇺🇸_US_美国_10 - 21ms
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 3ms
-      - 🇺🇸_US_美国_11 - 21ms
-      - 🇺🇸_US_美国_12 - 21ms
-      - 🇺🇸_US_美国_13 - 3ms
-      - 🇺🇸_US_美国_1 - 3ms
+      - 🇺🇸_US_美国_11 - 25ms
+      - 🇺🇸_US_美国_12 - 24ms
+      - 🇺🇸_US_美国_13 - 2ms
+      - 🇺🇸_US_美国_1 - 4ms
       - 🇺🇸_US_美国_2 - 3ms
       - 🇺🇸_US_美国_3 - 3ms
       - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 3ms
-      - 🇺🇸_US_美国_4 - 5ms
+      - 🇺🇸_US_美国_4 - 3ms
       - 🇺🇸_US_美国_5 - 21ms
-      - 🇺🇸_US_美国_6 - 4ms
+      - 🇺🇸_US_美国_6 - 3ms
       - 🇺🇸_US_美国_8 - 3ms
       - 🇺🇸_US_美国_9 - 15ms
       - 🇺🇸_US_美国_10 - 3ms
@@ -668,8 +672,8 @@ proxy-groups:
       - 🇺🇸_US_美国_15 - 3ms
       - 🇺🇸_US_美国_16 - 3ms
       - 🇺🇸_US_美国_17 - 3ms
-      - 🇺🇸_US_美国_18 - 2ms
-      - 🇺🇸_US_美国_19 - 4ms
+      - 🇺🇸_US_美国_18 - 3ms
+      - 🇺🇸_US_美国_19 - 3ms
       - 🇺🇸_US_美国_20 - 3ms
       - 🇺🇸_US_美国_21 - 16ms
       - 🇺🇸_US_美国_22 - 3ms
@@ -680,37 +684,37 @@ proxy-groups:
     proxies:
       - Auto Select
       - TG-@vvkj11 - 3ms
-      - 美国 CloudFlare节点 - 54ms
-      - 美国 CloudFlare节点 - 17ms
-      - 英国 V2CROSS.COM - 66ms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 2ms
-      - 美国 CloudFlare节点 - 567ms
-      - 美国 华盛顿Cogent通信公司 - 960ms
-      - 美国 CloudFlare节点 - 566ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 21ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 3ms
+      - 🇺🇸US_1|3.0MB/s - 64ms
+      - 🇭🇰HK_2|1.3MB/s - 317ms
+      - 美国 CloudFlare节点 - 178ms
+      - 美国 CloudFlare节点 - 134ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 3ms
+      - 美国 CloudFlare节点 - 838ms
+      - 美国 CloudFlare节点 - 618ms
+      - 美国 CloudFlare节点 - 2ms
+      - 美国 CloudFlare节点 - 3ms
       - 美国 CloudFlare节点 - 3ms
       - 美国 CloudFlare节点 - 2ms
-      - 美国 CloudFlare节点 - 497ms
-      - 美国 CloudFlare节点 - 219ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 3ms
-      - 美国 CloudFlare节点 - 2ms
-      - 🇺🇸_US_美国_1 - 3ms
+      - 🇺🇸_US_美国_1 - 2ms
       - 🇺🇸_US_美国_4 - 3ms
       - 🇺🇸_US_美国_7 - 24ms
       - 🇺🇸_US_美国_9 - 3ms
       - 🇺🇸_US_美国_10 - 21ms
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 3ms
-      - 🇺🇸_US_美国_11 - 21ms
-      - 🇺🇸_US_美国_12 - 21ms
-      - 🇺🇸_US_美国_13 - 3ms
-      - 🇺🇸_US_美国_1 - 3ms
+      - 🇺🇸_US_美国_11 - 25ms
+      - 🇺🇸_US_美国_12 - 24ms
+      - 🇺🇸_US_美国_13 - 2ms
+      - 🇺🇸_US_美国_1 - 4ms
       - 🇺🇸_US_美国_2 - 3ms
       - 🇺🇸_US_美国_3 - 3ms
       - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 3ms
-      - 🇺🇸_US_美国_4 - 5ms
+      - 🇺🇸_US_美国_4 - 3ms
       - 🇺🇸_US_美国_5 - 21ms
-      - 🇺🇸_US_美国_6 - 4ms
+      - 🇺🇸_US_美国_6 - 3ms
       - 🇺🇸_US_美国_8 - 3ms
       - 🇺🇸_US_美国_9 - 15ms
       - 🇺🇸_US_美国_10 - 3ms
@@ -722,8 +726,8 @@ proxy-groups:
       - 🇺🇸_US_美国_15 - 3ms
       - 🇺🇸_US_美国_16 - 3ms
       - 🇺🇸_US_美国_17 - 3ms
-      - 🇺🇸_US_美国_18 - 2ms
-      - 🇺🇸_US_美国_19 - 4ms
+      - 🇺🇸_US_美国_18 - 3ms
+      - 🇺🇸_US_美国_19 - 3ms
       - 🇺🇸_US_美国_20 - 3ms
       - 🇺🇸_US_美国_21 - 16ms
       - 🇺🇸_US_美国_22 - 3ms
