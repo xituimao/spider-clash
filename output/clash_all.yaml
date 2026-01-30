@@ -31,6 +31,15 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 广东省湛江市 移动 - undefinedms
+    type: vmess
+    server: tunnel1.qqa678.com
+    port: 47083
+    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -40,19 +49,24 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 伊朗 V2CROSS.COM - undefinedms
+  - name: 广东省湛江市 移动 - undefinedms
     type: vmess
-    server: 95.81.123.15
-    port: 40956
-    uuid: e3cb685e-7840-45cb-9d64-b2028d9b635e
+    server: tunnel2.qqa678.com
+    port: 47084
+    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: imafake.locker
+    tls: false
+    network: tcp
+  - name: 日本 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 160.191.245.48
+    port: 58623
+    uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -62,19 +76,6 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -380,15 +381,41 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇭🇰HK_1|2.0MB/s - undefinedms
+  - name: 🇸🇬SG_1|1.7MB/s - undefinedms
     type: vmess
-    server: oss-4.qqa678.com
-    port: 47081
-    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-    alterId: 0
+    server: v45.hdacd.com
+    port: 30845
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇯🇵JP_3|3.5MB/s - undefinedms
+    type: vmess
+    server: 23.106.143.127
+    port: 443
+    uuid: rootface-👑
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: / این پسره روتفیس دیوونس نه؟ @rootface
+      headers:
+        Host: 23.106.143.127
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -863,10 +890,11 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 广东省湛江市 移动 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
+      - 广东省湛江市 移动 - undefinedms
+      - 日本 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -892,7 +920,9 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇭🇰HK_1|2.0MB/s - undefinedms
+      - 🇸🇬SG_1|1.7MB/s - undefinedms
+      - 🇯🇵JP_3|3.5MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -937,10 +967,11 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 广东省湛江市 移动 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
+      - 广东省湛江市 移动 - undefinedms
+      - 日本 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -966,7 +997,9 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇭🇰HK_1|2.0MB/s - undefinedms
+      - 🇸🇬SG_1|1.7MB/s - undefinedms
+      - 🇯🇵JP_3|3.5MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
