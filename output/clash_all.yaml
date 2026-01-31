@@ -5,68 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 广东省湛江市 移动 - undefinedms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 广东省湛江市 移动 - undefinedms
-    type: vmess
-    server: tunnel1.qqa678.com
-    port: 47083
-    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 伊朗 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 95.81.123.15
-    port: 40956
-    uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
-    alterId: 0
-    cipher: auto
-    tls: true
     network: ws
     ws-opts:
-      path: /speedtest
+      path: /github.com/Alvin9999
       headers:
-        Host: imafake.locker
-  - name: 伊朗 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 95.81.123.15
-    port: 40956
-    uuid: 9631096d-3032-4942-9446-bdf12665682b
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: imafake.locker
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 伊朗 V2CROSS.COM - undefinedms
-    type: vmess
-    server: de.zarasite.ir
-    port: 6533
-    uuid: 7fea7538-e321-41de-a395-3afcbd7ec27c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -93,19 +44,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -115,303 +53,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 156.233.232.177
-    port: 24004
-    uuid: 582fcb35-20a0-452c-e179-4c759c62c494
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: none
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: cf.fovi.tk
-    port: 443
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /eisasqa
-      headers:
-        Host: foxlux.fovi.tk
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.21.96.1
-    port: 8443
-    uuid: 89c344f2-096c-445c-b629-9b15152f38e7
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /89c344f2
-      headers:
-        Host: ff.kncc2.top
-  - name: 印度 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 202.78.162.5
-    port: 443
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /@forwardv2ray
-      headers:
-        Host: pendar.onthewifi.com
-  - name: 美国 加利福尼亚州圣华金县斯托克顿市PacWest通信公司 - undefinedms
-    type: vmess
-    server: 66.42.84.143
-    port: 8881
-    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: hknbyivfffj.site
-    port: 443
+    server: 82.198.246.97
+    port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /rbqqvws
-      headers:
-        Host: hknbyivfffj.site
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: s1.db-link02.top
-    port: 8880
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in104.25.249.215
-      headers:
-        Host: 100-103-58-39.s1.db-link02.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: s2.db-link01.top
-    port: 2086
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in172.67.68.139
-      headers:
-        Host: 100-154-72-114.s2.db-link01.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: s2.db-link02.top
-    port: 2082
-    uuid: 13514c2c-d5a4-335f-965a-5dc292e36759
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in104.24.60.200
-      headers:
-        Host: 100-87-160-252.s2.db-link02.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: s5.db-link01.top
-    port: 2095
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in104.24.108.89
-      headers:
-        Host: 100-170-6-223.s5.db-link01.top
-  - name: 广东省广州市 移动 - undefinedms
-    type: vmess
-    server: 183.236.51.23
-    port: 46602
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
     tls: false
     network: tcp
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.16.155.10
-    port: 8880
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in104.24.185.219
-      headers:
-        Host: 100-151-81-36.s4.db-link01.top
-  - name: 美国 Interland - undefinedms
-    type: vmess
-    server: 64.225.109.206
-    port: 2082
-    uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: se.899994.xyz
-    port: 443
-    uuid: a0605527-28e4-449c-80ee-5642cc16a8af
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /index
-      headers:
-        Host: se.899994.xyz
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: s2.db-link01.top
-    port: 8880
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in172.64.0.32
-      headers:
-        Host: 100-14-147-154.s2.db-link01.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: s4.db-link01.top
-    port: 2082
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in104.25.248.188
-      headers:
-        Host: 100-4-150-250.s4.db-link01.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: s4.db-link01.top
-    port: 8080
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in104.20.125.64
-      headers:
-        Host: 100-143-127-247.s4.db-link01.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: s5.cn-db.top
-    port: 2082
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in172.64.23.14
-      headers:
-        Host: 100-219-162-241.s5.cn-db.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: www.speedtest.net
-    port: 80
-    uuid: 36500750-d9b5-11ef-b136-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /da87uoih
-      headers:
-        Host: eu-2.hihu.net
-  - name: 美国 圣斯考拉斯蒂卡大学 - undefinedms
-    type: vmess
-    server: tls.84.node-for-bigairport.win
-    port: 443
-    uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: tls.84.node-for-bigairport.win
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.17.221.248
-    port: 80
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /dabai.in104.17.169.115
-      headers:
-        Host: 100-49-141-209.s1.db-link02.top
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.18.3.180
-    port: 2053
-    uuid: ca62975d-934e-42c6-d361-6b445945d5b6
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /4w56yert243r
-      headers:
-        Host: kus.htg8866.us.kg
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.18.3.180
-    port: 2087
-    uuid: ca62975d-934e-42c6-d361-6b445945d5b6
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /4w56yert243r
-      headers:
-        Host: kus.htg8866.us.kg
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.19.218.236
-    port: 8443
-    uuid: 75de8443-8efe-429c-c5ef-a51f38592f03
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /3tq4ttrw
-      headers:
-        Host: ck.htg8866.us.kg
-  - name: 🇩🇪DE_1|2.9MB/s - undefinedms
+  - name: 🇩🇪DE_1|2.5MB/s - undefinedms
     type: vmess
     server: tgju.org
     port: 8080
@@ -424,46 +75,19 @@ proxies:
       path: /nasnet/cdn
       headers:
         Host: nasnet-571296497.iranpress.co
-  - name: 🇸🇬SG_1|1.4MB/s - undefinedms
+  - name: 🇩🇪DE_9|2.9MB/s - undefinedms
     type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_1|2.7MB/s - undefinedms
-    type: vmess
-    server: d2f78cba-t8nog0-tbe46y-1la7v.hkt.gotochinatown.net
-    port: 80
-    uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-    alterId: 2
+    server: digitalocean.com
+    port: 8080
+    uuid: nasnet
+    alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /NASNET/cdn
       headers:
-        Host: d2f78cba-t8nog0-tbe46y-1la7v.hkt.gotochinatown.net
-  - name: 🇺🇸US_1|1.6MB/s - undefinedms
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_2|2.0MB/s - undefinedms
-    type: vmess
-    server: tunnel2.qqa678.com
-    port: 47084
-    uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+        Host: nasnet-571299667.rahavard365.co
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -932,49 +556,322 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
+    type: vmess
+    server: 156.233.232.177
+    port: 24004
+    uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: none
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: cf.fovi.tk
+    port: 443
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /eisasqa
+      headers:
+        Host: foxlux.fovi.tk
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.21.96.1
+    port: 8443
+    uuid: 89c344f2-096c-445c-b629-9b15152f38e7
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /89c344f2
+      headers:
+        Host: ff.kncc2.top
+  - name: 印度 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /@forwardv2ray
+      headers:
+        Host: pendar.onthewifi.com
+  - name: 美国 加利福尼亚州圣华金县斯托克顿市PacWest通信公司 - undefinedms
+    type: vmess
+    server: 66.42.84.143
+    port: 8881
+    uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: hknbyivfffj.site
+    port: 443
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /rbqqvws
+      headers:
+        Host: hknbyivfffj.site
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: s1.db-link02.top
+    port: 8880
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in104.25.249.215
+      headers:
+        Host: 100-103-58-39.s1.db-link02.top
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: s2.db-link01.top
+    port: 2086
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in172.67.68.139
+      headers:
+        Host: 100-154-72-114.s2.db-link01.top
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: s2.db-link02.top
+    port: 2082
+    uuid: 13514c2c-d5a4-335f-965a-5dc292e36759
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in104.24.60.200
+      headers:
+        Host: 100-87-160-252.s2.db-link02.top
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: s5.db-link01.top
+    port: 2095
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in104.24.108.89
+      headers:
+        Host: 100-170-6-223.s5.db-link01.top
+  - name: 广东省广州市 移动 - undefinedms
+    type: vmess
+    server: 183.236.51.23
+    port: 46602
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.16.155.10
+    port: 8880
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in104.24.185.219
+      headers:
+        Host: 100-151-81-36.s4.db-link01.top
+  - name: 美国 Interland - undefinedms
+    type: vmess
+    server: 64.225.109.206
+    port: 2082
+    uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: se.899994.xyz
+    port: 443
+    uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /index
+      headers:
+        Host: se.899994.xyz
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: s2.db-link01.top
+    port: 8880
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in172.64.0.32
+      headers:
+        Host: 100-14-147-154.s2.db-link01.top
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: s4.db-link01.top
+    port: 2082
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in104.25.248.188
+      headers:
+        Host: 100-4-150-250.s4.db-link01.top
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: s4.db-link01.top
+    port: 8080
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in104.20.125.64
+      headers:
+        Host: 100-143-127-247.s4.db-link01.top
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: s5.cn-db.top
+    port: 2082
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in172.64.23.14
+      headers:
+        Host: 100-219-162-241.s5.cn-db.top
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: www.speedtest.net
+    port: 80
+    uuid: 36500750-d9b5-11ef-b136-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /da87uoih
+      headers:
+        Host: eu-2.hihu.net
+  - name: 美国 圣斯考拉斯蒂卡大学 - undefinedms
+    type: vmess
+    server: tls.84.node-for-bigairport.win
+    port: 443
+    uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tls.84.node-for-bigairport.win
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.17.221.248
+    port: 80
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dabai.in104.17.169.115
+      headers:
+        Host: 100-49-141-209.s1.db-link02.top
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.18.3.180
+    port: 2053
+    uuid: ca62975d-934e-42c6-d361-6b445945d5b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /4w56yert243r
+      headers:
+        Host: kus.htg8866.us.kg
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.18.3.180
+    port: 2087
+    uuid: ca62975d-934e-42c6-d361-6b445945d5b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /4w56yert243r
+      headers:
+        Host: kus.htg8866.us.kg
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.19.218.236
+    port: 8443
+    uuid: 75de8443-8efe-429c-c5ef-a51f38592f03
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /3tq4ttrw
+      headers:
+        Host: ck.htg8866.us.kg
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 广东省湛江市 移动 - undefinedms
-      - 广东省湛江市 移动 - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 印度 V2CROSS.COM - undefinedms
-      - 美国 加利福尼亚州圣华金县斯托克顿市PacWest通信公司 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 广东省广州市 移动 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 Interland - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 圣斯考拉斯蒂卡大学 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 🇩🇪DE_1|2.9MB/s - undefinedms
-      - 🇸🇬SG_1|1.4MB/s - undefinedms
-      - 🇭🇰HK_1|2.7MB/s - undefinedms
-      - 🇺🇸US_1|1.6MB/s - undefinedms
-      - 🇺🇸US_2|2.0MB/s - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 🇩🇪DE_1|2.5MB/s - undefinedms
+      - 🇩🇪DE_9|2.9MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -1011,51 +908,44 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 印度 V2CROSS.COM - undefinedms
+      - 美国 加利福尼亚州圣华金县斯托克顿市PacWest通信公司 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 广东省广州市 移动 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 Interland - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 圣斯考拉斯蒂卡大学 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - 广东省湛江市 移动 - undefinedms
-      - 广东省湛江市 移动 - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 印度 V2CROSS.COM - undefinedms
-      - 美国 加利福尼亚州圣华金县斯托克顿市PacWest通信公司 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 广东省广州市 移动 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 Interland - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 圣斯考拉斯蒂卡大学 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 🇩🇪DE_1|2.9MB/s - undefinedms
-      - 🇸🇬SG_1|1.4MB/s - undefinedms
-      - 🇭🇰HK_1|2.7MB/s - undefinedms
-      - 🇺🇸US_1|1.6MB/s - undefinedms
-      - 🇺🇸US_2|2.0MB/s - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 🇩🇪DE_1|2.5MB/s - undefinedms
+      - 🇩🇪DE_9|2.9MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -1092,5 +982,30 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 印度 V2CROSS.COM - undefinedms
+      - 美国 加利福尼亚州圣华金县斯托克顿市PacWest通信公司 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 广东省广州市 移动 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 Interland - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 圣斯考拉斯蒂卡大学 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
 rules:
   - MATCH,Proxy
