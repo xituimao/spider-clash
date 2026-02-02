@@ -5,6 +5,63 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 日本 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 160.191.245.48
+    port: 58623
+    uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 中国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 Cloudinnovation数据中心 - undefinedms
+    type: vmess
+    server: 154.83.2.156
+    port: 2086
+    uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v205.19740822.xyz
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: tgju.org
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: nasnet-571296497.iranpress.co
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,63 +88,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.21.69.44
-    port: 8080
-    uuid: nasnet
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /nasnet/cdn
-      headers:
-        Host: nasnet-511952424.mcitel.co
-  - name: 美国 Cloudinnovation数据中心 - undefinedms
-    type: vmess
-    server: 154.83.2.156
-    port: 2086
-    uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: v205.19740822.xyz
-  - name: 日本 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 160.191.245.48
-    port: 58623
-    uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -393,47 +393,7 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
-  - name: 🇩🇪DE_1|1.0MB/s - undefinedms
-    type: vmess
-    server: digitalocean.com
-    port: 8080
-    uuid: nasnet
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /NASNET/cdn?ed=2560
-      headers:
-        Host: digitalocean.com
-  - name: 🇯🇵JP_2|1.3MB/s - undefinedms
-    type: vmess
-    server: 47.245.35.34
-    port: 8080
-    uuid: 800c4b55-6f78-4fd7-9478-cc30547a91fd
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇯🇵JP_3|4.6MB/s - undefinedms
-    type: vmess
-    server: 47.74.12.75
-    port: 8080
-    uuid: 827f751b-f05c-4dee-8f73-7dce7d320e88
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇸🇬SG_1|2.5MB/s - undefinedms
-    type: vmess
-    server: 47.236.197.234
-    port: 8080
-    uuid: 208dadf2-c55a-4539-939d-a0ce2399dcf4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇸🇬SG_2|1.3MB/s - undefinedms
+  - name: 🇸🇬SG_1|4.2MB/s - undefinedms
     type: vmess
     server: v45.hdacd.com
     port: 30845
@@ -442,6 +402,19 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇺🇸US_5|1.7MB/s - undefinedms
+    type: vmess
+    server: 154.83.2.156
+    port: 2086
+    uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v205.19740822.xyz
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -914,13 +887,13 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 Cloudinnovation数据中心 - undefinedms
       - 日本 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 中国 V2CROSS.COM - undefinedms
+      - 美国 Cloudinnovation数据中心 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -946,11 +919,8 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇩🇪DE_1|1.0MB/s - undefinedms
-      - 🇯🇵JP_2|1.3MB/s - undefinedms
-      - 🇯🇵JP_3|4.6MB/s - undefinedms
-      - 🇸🇬SG_1|2.5MB/s - undefinedms
-      - 🇸🇬SG_2|1.3MB/s - undefinedms
+      - 🇸🇬SG_1|4.2MB/s - undefinedms
+      - 🇺🇸US_5|1.7MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -993,13 +963,13 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 Cloudinnovation数据中心 - undefinedms
       - 日本 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 中国 V2CROSS.COM - undefinedms
+      - 美国 Cloudinnovation数据中心 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国加利福尼亚州洛杉矶 FREEBEST数据中心 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
@@ -1025,11 +995,8 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇩🇪DE_1|1.0MB/s - undefinedms
-      - 🇯🇵JP_2|1.3MB/s - undefinedms
-      - 🇯🇵JP_3|4.6MB/s - undefinedms
-      - 🇸🇬SG_1|2.5MB/s - undefinedms
-      - 🇸🇬SG_2|1.3MB/s - undefinedms
+      - 🇸🇬SG_1|4.2MB/s - undefinedms
+      - 🇺🇸US_5|1.7MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
