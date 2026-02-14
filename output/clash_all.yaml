@@ -46,7 +46,7 @@ proxies:
         Host: ip18.6929198.xyz
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 172.64.149.182
+    server: 104.19.173.68
     port: 8080
     uuid: nasnet
     alterId: 0
@@ -54,9 +54,92 @@ proxies:
     tls: false
     network: ws
     ws-opts:
-      path: /nasnet/cdn?ed=2560
+      path: /NASNET/cdn?ed=2560
       headers:
-        Host: nasnet-5712964102.sharghdaily.co
+        Host: nasnet-571299667.rahavard365.co
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: tgju.org
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-571296497.iranpress.co
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.19.174.68
+    port: 8080
+    uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /NASNET/cdn
+      headers:
+        Host: nasnet-571299667.rahavard365.co
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: yhj.tc1.ccwu.cc
+    port: 80
+    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /kFK9O5cl8ZycyrxcJWNVFC21
+      headers:
+        Host: yhj.tc1.ccwu.cc
+  - name: 中国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: nmj.wc8.ccwu.cc
+    port: 80
+    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /kFK9O5cl8ZycyrxcJWNVFC21
+      headers:
+        Host: nmj.wc8.ccwu.cc
+  - name: 日本 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 160.191.245.48
+    port: 58623
+    uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: nmj.wc8.ccwu.cc
+    port: 80
+    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /kFK9O5cl8ZycyrxcJWNVFC21
+      headers:
+        Host: nmj.wc8.ccwu.cc
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -68,17 +151,17 @@ proxies:
     network: tcp
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: mmko.tt0.ccwu.cc
-    port: 80
-    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+    server: 172.67.204.84
+    port: 8080
+    uuid: nasnet
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /kFK9O5cl8ZycyrxcJWNVFC21
+      path: /nasnet/cdn
       headers:
-        Host: mmko.tt0.ccwu.cc
+        Host: nasnet-511952424.mcitel.co
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: mmkio.wc5.ccwu.cc
@@ -94,39 +177,56 @@ proxies:
         Host: mmkio.wc5.ccwu.cc
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
-    port: 443
-    uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /KHtPvNZl371C8NsbbZ1wwDhJ3
-      headers:
-        Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
-  - name: 日本 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 160.191.245.48
-    port: 58623
-    uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
+    server: mmkio.tc6.ccwu.cc
+    port: 80
+    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 美国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: dll.avaaaal.ir
-    port: 8443
-    uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
-    alterId: 0
-    cipher: auto
-    tls: true
     network: ws
     ws-opts:
-      path: /
+      path: /kFK9O5cl8ZycyrxcJWNVFC21
       headers:
-        Host: dll.avaaaal.ir
+        Host: mmkio.tc6.ccwu.cc
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 172.64.149.182
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn?ed=2560
+      headers:
+        Host: nasnet-5712964102.sharghdaily.co
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.19.173.68
+    port: 8080
+    uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /NASNET/cdn
+      headers:
+        Host: nasnet-571299667.rahavard365.co
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: bbbnmki.kk7.ccwu.cc
+    port: 80
+    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /kFK9O5cl8ZycyrxcJWNVFC21
+      headers:
+        Host: bbbnmki.kk7.ccwu.cc
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: nju.bb4.indevs.in
@@ -140,19 +240,6 @@ proxies:
       path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
       headers:
         Host: nju.bb4.indevs.in
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: bnmj.wc6.ccwu.cc
-    port: 80
-    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /kFK9O5cl8ZycyrxcJWNVFC21
-      headers:
-        Host: bnmj.wc6.ccwu.cc
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -1050,48 +1137,31 @@ proxies:
       path: /nasnet/cdn?ed=2560
       headers:
         Host: nasnet-571296497.iranpress.co
-  - name: 🇩🇪DE_2|1.5MB/s - undefinedms
+  - name: 🇯🇵JP_1|3.1MB/s - undefinedms
     type: vmess
-    server: digitalocean.com
-    port: 8080
-    uuid: nasnet
+    server: gtm1.ktmwan.net
+    port: 12883
+    uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /NASNET/cdn
+      path: /
       headers:
-        Host: nasnet-571299667.rahavard365.co
-  - name: 🇸🇬_SG_新加坡 - undefinedms
+        Host: gtm1.ktmwan.net
+  - name: 🇺🇸US_2|2.4MB/s - undefinedms
     type: vmess
-    server: 128.199.128.117
-    port: 443
-    uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
-    alterId: 0
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-      headers:
-        Host: sg.dalxy.eu.org
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
+    tls: false
+    network: tcp
+  - name: 🇫🇷FR_1|2.6MB/s - undefinedms
     type: vmess
-    server: 172.236.154.50
-    port: 443
-    uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-      headers:
-        Host: sg.dalxy.eu.org
-  - name: 🇧🇷_BR_巴西->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 188.114.98.0
+    server: tgju.org
     port: 8080
     uuid: nasnet
     alterId: 0
@@ -1102,6 +1172,47 @@ proxies:
       path: /nasnet/cdn
       headers:
         Host: nasnet-162191099.sharghdaily.co
+  - name: 🇩🇪DE_5|1.8MB/s - undefinedms
+    type: vmess
+    server: 104.19.173.68
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /NASNET/cdn
+      headers:
+        Host: nasnet-571299667.rahavard365.co
+  - name: 🇺🇸US_3|2.3MB/s - undefinedms
+    type: vmess
+    server: vvvbnhj.kk4.ccwu.cc
+    port: 80
+    uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /kFK9O5cl8ZycyrxcJWNVFC21
+      headers:
+        Host: vvvbnhj.kk4.ccwu.cc
+  - name: 🇳🇱NL_2|3.1MB/s - undefinedms
+    type: vmess
+    server: 45.13.227.118
+    port: 80
+    uuid: 8ce64662-f8b8-4955-bdf2-a55b821bc4aa
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+      headers:
+        Host: >-
+          ......................................................................................()...........................................................................................................................................................................................................................................................
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1427,6 +1538,45 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
+  - name: 🇸🇬_SG_新加坡 - undefinedms
+    type: vmess
+    server: 128.199.128.117
+    port: 443
+    uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+      headers:
+        Host: sg.dalxy.eu.org
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
+    type: vmess
+    server: 172.236.154.50
+    port: 443
+    uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+      headers:
+        Host: sg.dalxy.eu.org
+  - name: 🇧🇷_BR_巴西->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 188.114.98.0
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-162191099.sharghdaily.co
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -1682,12 +1832,19 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 中国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 日本 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 日本 V2CROSS.COM - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1762,10 +1919,12 @@ proxy-groups:
       - 🇫🇷_法国 - undefinedms
       - 🇫🇷_法国 - undefinedms
       - 🇺🇸_美国 - undefinedms
-      - 🇩🇪DE_2|1.5MB/s - undefinedms
-      - 🇸🇬_SG_新加坡 - undefinedms
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国 - undefinedms
+      - 🇯🇵JP_1|3.1MB/s - undefinedms
+      - 🇺🇸US_2|2.4MB/s - undefinedms
+      - 🇫🇷FR_1|2.6MB/s - undefinedms
+      - 🇩🇪DE_5|1.8MB/s - undefinedms
+      - 🇺🇸US_3|2.3MB/s - undefinedms
+      - 🇳🇱NL_2|3.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1791,6 +1950,9 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇸🇬_SG_新加坡 - undefinedms
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -1820,12 +1982,19 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 中国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 日本 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 日本 V2CROSS.COM - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1900,10 +2069,12 @@ proxy-groups:
       - 🇫🇷_法国 - undefinedms
       - 🇫🇷_法国 - undefinedms
       - 🇺🇸_美国 - undefinedms
-      - 🇩🇪DE_2|1.5MB/s - undefinedms
-      - 🇸🇬_SG_新加坡 - undefinedms
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
-      - 🇧🇷_BR_巴西->🇺🇸_US_美国 - undefinedms
+      - 🇯🇵JP_1|3.1MB/s - undefinedms
+      - 🇺🇸US_2|2.4MB/s - undefinedms
+      - 🇫🇷FR_1|2.6MB/s - undefinedms
+      - 🇩🇪DE_5|1.8MB/s - undefinedms
+      - 🇺🇸US_3|2.3MB/s - undefinedms
+      - 🇳🇱NL_2|3.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1929,6 +2100,9 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇸🇬_SG_新加坡 - undefinedms
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
+      - 🇧🇷_BR_巴西->🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
