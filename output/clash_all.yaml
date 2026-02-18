@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -46,20 +33,34 @@ proxies:
         Host: 109.104.152.220
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: turk1.net.net
+    port: 80
+    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: t1.620720.xyz
+        Host: tr1-smart.adelping.com.
+  - name: 巴西圣保罗 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 188.114.98.0
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: >-
+        /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+      headers:
+        Host: nasnet-162191099.sharghdaily.co
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 172.67.204.84
+    server: 172.64.149.182
     port: 8080
     uuid: nasnet
     alterId: 0
@@ -69,7 +70,29 @@ proxies:
     ws-opts:
       path: /nasnet/cdn
       headers:
-        Host: nasnet-511952424.mcitel.co
+        Host: nasnet-5712964102.sharghdaily.co
+  - name: 中国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: turk1.net.net
+    port: 80
+    uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tr1-smart.adelping.com.
   - name: 美国 V2CROSS.COM - undefinedms
     type: vmess
     server: dll.avaaaal.ir
@@ -85,26 +108,17 @@ proxies:
         Host: cdge.avaaaal.ir
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 172.64.149.182
-    port: 8080
-    uuid: nasnet
+    server: t1.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     network: ws
     ws-opts:
-      path: /nasnet/cdn
+      path: /
       headers:
-        Host: nasnet-5712964102.sharghdaily.co
-  - name: 🇺🇸US_2|1.1MB/s - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+        Host: t1.620720.xyz
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: 172.64.149.182
@@ -427,6 +441,72 @@ proxies:
       path: /3tq4ttrw
       headers:
         Host: ck.htg8866.us.kg
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇩🇪DE_1|1.4MB/s - undefinedms
+    type: vmess
+    server: 172.64.149.182
+    port: 8080
+    uuid: nasnet
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /nasnet/cdn
+      headers:
+        Host: nasnet-5712964102.sharghdaily.co
+  - name: 🇺🇸US_1|3.0MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_2|2.6MB/s - undefinedms
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪DE_2|1.8MB/s - undefinedms
+    type: vmess
+    server: dll.avaaaal.ir
+    port: 8443
+    uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cdge.avaaaal.ir
+  - name: 🇺🇸US_3|1.1MB/s - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇬🇧_英国 - undefinedms
     type: vmess
     server: 149.88.95.217
@@ -1678,14 +1758,15 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 巴西圣保罗 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 中国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇺🇸US_2|1.1MB/s - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1712,6 +1793,12 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇩🇪DE_1|1.4MB/s - undefinedms
+      - 🇺🇸US_1|3.0MB/s - undefinedms
+      - 🇺🇸US_2|2.6MB/s - undefinedms
+      - 🇩🇪DE_2|1.8MB/s - undefinedms
+      - 🇺🇸US_3|1.1MB/s - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇺🇸_美国 - undefinedms
@@ -1816,14 +1903,15 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 巴西圣保罗 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 中国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 V2CROSS.COM - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - 🇺🇸US_2|1.1MB/s - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
@@ -1850,6 +1938,12 @@ proxy-groups:
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇩🇪DE_1|1.4MB/s - undefinedms
+      - 🇺🇸US_1|3.0MB/s - undefinedms
+      - 🇺🇸US_2|2.6MB/s - undefinedms
+      - 🇩🇪DE_2|1.8MB/s - undefinedms
+      - 🇺🇸US_3|1.1MB/s - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇺🇸_美国 - undefinedms
