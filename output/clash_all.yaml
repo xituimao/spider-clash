@@ -31,71 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: vbnj8.0yo.ccwu.cc
-    port: 443
-    uuid: 8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /y3ME81hpTJWwd4RJBAQ5Ah
-      headers:
-        Host: vbnj8.0yo.ccwu.cc
-  - name: 美国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 199.34.230.199
-    port: 443
-    uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-      headers:
-        Host: ous3.dean52.top
-  - name: 美国 得克萨斯州 - undefinedms
-    type: vmess
-    server: 34.143.159.175
-    port: 443
-    uuid: 462d9694-62b5-4781-a287-61a422b920e8
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /vvip
-      headers:
-        Host: mn1ray.jagoanvip.xyz
-  - name: 北美地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 198.62.62.199
-    port: 443
-    uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-      headers:
-        Host: ous3.dean52.top
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: sy4.620720.xyz
@@ -109,19 +44,19 @@ proxies:
       path: /
       headers:
         Host: sy4.620720.xyz
-  - name: 美国 CloudFlare节点 - undefinedms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /github.com/Alvin9999
       headers:
-        Host: t1.620720.xyz
+        Host: ip18.6929198.xyz
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
     server: 104.26.15.137
@@ -1626,6 +1561,24 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇬🇧_GB_英国->🇧🇬_BG_保加利亚 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1951,37 +1904,14 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇬🇧_GB_英国->🇧🇬_BG_保加利亚 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
-      - 美国 得克萨斯州 - undefinedms
-      - 北美地区 V2CROSS.COM - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 加利福尼亚州洛杉矶IT7网络 - undefinedms
       - 美国 V2CROSS.COM - undefinedms
@@ -2105,6 +2035,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇬🇧_GB_英国->🇧🇬_BG_保加利亚 - undefinedms
+      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -2130,8 +2062,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇬🇧_GB_英国->🇧🇬_BG_保加利亚 - undefinedms
-      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -2140,13 +2070,8 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
-      - 美国 得克萨斯州 - undefinedms
-      - 北美地区 V2CROSS.COM - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 美国 加利福尼亚州洛杉矶IT7网络 - undefinedms
       - 美国 V2CROSS.COM - undefinedms
@@ -2270,6 +2195,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇬🇧_GB_英国->🇧🇬_BG_保加利亚 - undefinedms
+      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -2295,7 +2222,5 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇬🇧_GB_英国->🇧🇬_BG_保加利亚 - undefinedms
-      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
 rules:
   - MATCH,Proxy
