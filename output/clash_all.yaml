@@ -5,6 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,6 +44,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: nmju.1jj.ccwu.cc
+    port: 80
+    uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /iSRWSKUJKNuXvVzsYHmsMrnO
+      headers:
+        Host: nmju.1jj.ccwu.cc
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -40,41 +66,206 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 中国 V2CROSS.COM - undefinedms
     type: vmess
-    server: v12.hdacd.com
-    port: 30812
+    server: v30.hdacd.com
+    port: 30830
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+  - name: 🇭🇰HK_1|1.5MB/s - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    server: m.cnmjin.net
+    port: 16632
+    uuid: 0bc2e282-126d-4519-8cb8-ade27c35bd46
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /github.com/Alvin9999
+      path: /
       headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸US_1|2.5MB/s - undefinedms
+        Host: 36fcadc98196aae7004669b1c147cc95.mobgslb.tbcache.com
+  - name: 🇸🇬SG_1|1018KB/s - undefinedms
     type: vmess
-    server: aflzzul.meiquankongjian.com
-    port: 52513
-    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    server: planb.mojcn.com
+    port: 16618
+    uuid: 0bc2e282-126d-4519-8cb8-ade27c35bd46
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /564dfa20/
+      path: /
       headers:
-        Host: aflzzul.meiquankongjian.com
+        Host: 36fcadc98196aae7004669b1c147cc95.mobgslb.tbcache.com
+  - name: 🇸🇬SG_2|1.6MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16618
+    uuid: 0bc2e282-126d-4519-8cb8-ade27c35bd46
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 36fcadc98196aae7004669b1c147cc95.mobgslb.tbcache.com
+  - name: 🇺🇸US_1|1.5MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16648
+    uuid: 0bc2e282-126d-4519-8cb8-ade27c35bd46
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 36fcadc98196aae7004669b1c147cc95.mobgslb.tbcache.com
+  - name: 🇭🇰HK_2|1.1MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16632
+    uuid: 0bc2e282-126d-4519-8cb8-ade27c35bd46
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 36fcadc98196aae7004669b1c147cc95.mobgslb.tbcache.com
+  - name: 🇮🇳IN_1|1.4MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16626
+    uuid: 0bc2e282-126d-4519-8cb8-ade27c35bd46
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 36fcadc98196aae7004669b1c147cc95.mobgslb.tbcache.com
+  - name: 🇮🇳IN_2|3.5MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16626
+    uuid: 40449518-c836-4aa7-b6a1-429f6e221eed
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 74e46cd6105a36ab9d31c4451aa68c4a.mobgslb.tbcache.com
+  - name: 🇭🇰HK_3|4.1MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16632
+    uuid: 9e83a537-1ce5-4bc8-aeca-c5df66febcb4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: eaa345f1c00a3c951d60cf487909a2cb.mobgslb.tbcache.com
+  - name: 🇸🇬SG_3|2.0MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16618
+    uuid: 40449518-c836-4aa7-b6a1-429f6e221eed
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 74e46cd6105a36ab9d31c4451aa68c4a.mobgslb.tbcache.com
+  - name: 🇸🇬SG_4|3.3MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16618
+    uuid: 40449518-c836-4aa7-b6a1-429f6e221eed
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 74e46cd6105a36ab9d31c4451aa68c4a.mobgslb.tbcache.com
+  - name: 🇹🇼TW_1|1.3MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16616
+    uuid: 9e83a537-1ce5-4bc8-aeca-c5df66febcb4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: eaa345f1c00a3c951d60cf487909a2cb.mobgslb.tbcache.com
+  - name: 🇭🇰HK_4|1.6MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16622
+    uuid: 40449518-c836-4aa7-b6a1-429f6e221eed
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 74e46cd6105a36ab9d31c4451aa68c4a.mobgslb.tbcache.com
+  - name: 🇯🇵JP_6|3.2MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16617
+    uuid: 9e83a537-1ce5-4bc8-aeca-c5df66febcb4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: eaa345f1c00a3c951d60cf487909a2cb.mobgslb.tbcache.com
+  - name: 🇨🇦CA_1|1014KB/s - undefinedms
+    type: vmess
+    server: abm96f00fby3.jkhkgj.xyz
+    port: 80
+    uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /market/can
+      headers:
+        Host: tms.dingtalk.com
   - name: 日期：03-17 - undefinedms
     type: vmess
     server: 103.181.164.237
@@ -4141,12 +4332,27 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 中国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸US_1|2.5MB/s - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 中国 V2CROSS.COM - undefinedms
+      - 🇭🇰HK_1|1.5MB/s - undefinedms
+      - 🇸🇬SG_1|1018KB/s - undefinedms
+      - 🇸🇬SG_2|1.6MB/s - undefinedms
+      - 🇺🇸US_1|1.5MB/s - undefinedms
+      - 🇭🇰HK_2|1.1MB/s - undefinedms
+      - 🇮🇳IN_1|1.4MB/s - undefinedms
+      - 🇮🇳IN_2|3.5MB/s - undefinedms
+      - 🇭🇰HK_3|4.1MB/s - undefinedms
+      - 🇸🇬SG_3|2.0MB/s - undefinedms
+      - 🇸🇬SG_4|3.3MB/s - undefinedms
+      - 🇹🇼TW_1|1.3MB/s - undefinedms
+      - 🇭🇰HK_4|1.6MB/s - undefinedms
+      - 🇯🇵JP_6|3.2MB/s - undefinedms
+      - 🇨🇦CA_1|1014KB/s - undefinedms
       - 日期：03-17 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇦🇺_澳大利亚 - undefinedms
@@ -4482,12 +4688,27 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 中国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸US_1|2.5MB/s - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 中国 V2CROSS.COM - undefinedms
+      - 🇭🇰HK_1|1.5MB/s - undefinedms
+      - 🇸🇬SG_1|1018KB/s - undefinedms
+      - 🇸🇬SG_2|1.6MB/s - undefinedms
+      - 🇺🇸US_1|1.5MB/s - undefinedms
+      - 🇭🇰HK_2|1.1MB/s - undefinedms
+      - 🇮🇳IN_1|1.4MB/s - undefinedms
+      - 🇮🇳IN_2|3.5MB/s - undefinedms
+      - 🇭🇰HK_3|4.1MB/s - undefinedms
+      - 🇸🇬SG_3|2.0MB/s - undefinedms
+      - 🇸🇬SG_4|3.3MB/s - undefinedms
+      - 🇹🇼TW_1|1.3MB/s - undefinedms
+      - 🇭🇰HK_4|1.6MB/s - undefinedms
+      - 🇯🇵JP_6|3.2MB/s - undefinedms
+      - 🇨🇦CA_1|1014KB/s - undefinedms
       - 日期：03-17 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇦🇺_澳大利亚 - undefinedms
