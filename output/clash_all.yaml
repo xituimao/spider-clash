@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,28 +31,15 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: m.cnmjin.net
-    port: 16617
-    uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
+    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.250
@@ -75,32 +49,55 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰HK_2|1.7MB/s - undefinedms
+  - name: 伊朗 V2CROSS.COM - undefinedms
     type: vmess
-    server: planb.mojcn.com
-    port: 16622
-    uuid: 9c57c421-1d87-475b-8ec1-5595a304b19d
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /github.com/Alvin9999
       headers:
-        Host: 6a52001e3651ccdc8ef7740494916ad2.mobgslb.tbcache.com
-  - name: 🇯🇵JP_1|2.2MB/s - undefinedms
+        Host: ip18.6929198.xyz
+  - name: 🇭🇰HK_2|1.9MB/s - undefinedms
     type: vmess
-    server: m.cnmjin.net
-    port: 16617
-    uuid: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 7a297964a2b31dafd3529ef4d14574b9.mobgslb.tbcache.com
+    network: tcp
+  - name: 🇭🇰HK_3|1.3MB/s - undefinedms
+    type: vmess
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇬🇧_英国 - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -944,14 +941,15 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 🇭🇰HK_2|1.7MB/s - undefinedms
-      - 🇯🇵JP_1|2.2MB/s - undefinedms
+      - 🇭🇰HK_2|1.9MB/s - undefinedms
+      - 🇭🇰HK_3|1.3MB/s - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇬🇧_英国 - undefinedms
@@ -1024,14 +1022,15 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 🇭🇰HK_2|1.7MB/s - undefinedms
-      - 🇯🇵JP_1|2.2MB/s - undefinedms
+      - 🇭🇰HK_2|1.9MB/s - undefinedms
+      - 🇭🇰HK_3|1.3MB/s - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇬🇧_英国 - undefinedms
