@@ -44,24 +44,20 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 巴西圣保罗 CloudFlare节点 - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 188.114.96.3
-    port: 8443
-    uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /gbt
-      headers:
-        Host: 188.114.96.3
-  - name: 香港 电讯盈科有限公司 - undefinedms
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: efan.dnsefan04881.com
-    port: 7754
-    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
@@ -75,19 +71,42 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🕳️91@oneclickvpnkeys|2.5MB/s - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: planb.mojcn.com
-    port: 16645
-    uuid: 3958aab8-fa85-43ac-ae60-537f4e642d9f
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: b8503d97efa57c667a0dcb7e848917ca.mobgslb.tbcache.com
+    network: tcp
+  - name: 伊朗 V2CROSS.COM - undefinedms
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇸🇬SG_1|2.1MB/s - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇸🇬SG_2|2.1MB/s - undefinedms
+    type: vmess
+    server: v45.hdacd.com
+    port: 30845
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 德国 - undefinedms
     type: vmess
     server: 82.198.246.250
@@ -853,10 +872,13 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 巴西圣保罗 CloudFlare节点 - undefinedms
-      - 香港 电讯盈科有限公司 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 🕳️91@oneclickvpnkeys|2.5MB/s - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
+      - 🇸🇬SG_1|2.1MB/s - undefinedms
+      - 🇸🇬SG_2|2.1MB/s - undefinedms
       - 德国 - undefinedms
       - 🇩🇪 德国 04 - undefinedms
       - 德国 - undefinedms
@@ -925,10 +947,13 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 巴西圣保罗 CloudFlare节点 - undefinedms
-      - 香港 电讯盈科有限公司 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 🕳️91@oneclickvpnkeys|2.5MB/s - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
+      - 🇸🇬SG_1|2.1MB/s - undefinedms
+      - 🇸🇬SG_2|2.1MB/s - undefinedms
       - 德国 - undefinedms
       - 🇩🇪 德国 04 - undefinedms
       - 德国 - undefinedms
