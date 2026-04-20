@@ -5,6 +5,24 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -44,42 +62,46 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 🇺🇸US_1|1.8MB/s - undefinedms
     type: vmess
-    server: 82.198.246.46
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
+  - name: 🇺🇸US_2|1.6MB/s - undefinedms
     type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 美国 东北部七州电讯网 - undefinedms
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 香港 电讯盈科有限公司 - undefinedms
+  - name: 🇺🇸US_3|1.1MB/s - undefinedms
     type: vmess
-    server: efan.dnsefan04881.com
-    port: 7754
-    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
-    cipher: auto
+    cipher: aes-128-gcm
     tls: false
     network: tcp
+  - name: 🇺🇸US_4|2.4MB/s - undefinedms
+    type: vmess
+    server: cf.tencentapp.cn
+    port: 443
+    uuid: 75179185-d785-4f07-a164-c257c5960f0d
+    alterId: 0
+    cipher: none
+    tls: true
+    network: ws
+    ws-opts:
+      path: /vmess-argo
+      headers:
+        Host: jvc-postal-approval-mass.trycloudflare.com
   - name: 每天更新，请加电报群防止失联 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -422,28 +444,6 @@ proxies:
       path: /
       headers:
         Host: n1753356378.4u9ma.icu
-  - name: 🇮🇳IN_1|2.6MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16626
-    uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
-  - name: 🇺🇸US_2|1.0MB/s - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -916,13 +916,15 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 美国 东北部七州电讯网 - undefinedms
-      - 香港 电讯盈科有限公司 - undefinedms
+      - 🇺🇸US_1|1.8MB/s - undefinedms
+      - 🇺🇸US_2|1.6MB/s - undefinedms
+      - 🇺🇸US_3|1.1MB/s - undefinedms
+      - 🇺🇸US_4|2.4MB/s - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 日期：04-19 - undefinedms
@@ -949,8 +951,6 @@ proxy-groups:
       - 🇺🇸 美国 - undefinedms
       - 🇺🇸 美国 - undefinedms
       - 🇭🇰 香港 - undefinedms
-      - 🇮🇳IN_1|2.6MB/s - undefinedms
-      - 🇺🇸US_2|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -993,13 +993,15 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 美国 东北部七州电讯网 - undefinedms
-      - 香港 电讯盈科有限公司 - undefinedms
+      - 🇺🇸US_1|1.8MB/s - undefinedms
+      - 🇺🇸US_2|1.6MB/s - undefinedms
+      - 🇺🇸US_3|1.1MB/s - undefinedms
+      - 🇺🇸US_4|2.4MB/s - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 日期：04-19 - undefinedms
@@ -1026,8 +1028,6 @@ proxy-groups:
       - 🇺🇸 美国 - undefinedms
       - 🇺🇸 美国 - undefinedms
       - 🇭🇰 香港 - undefinedms
-      - 🇮🇳IN_1|2.6MB/s - undefinedms
-      - 🇺🇸US_2|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
