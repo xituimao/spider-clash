@@ -44,27 +44,27 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 亚太地区 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 俄罗斯 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 5.188.190.252
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 1
     cipher: auto
     tls: false
     network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -82,14 +82,23 @@ proxies:
     network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 🇺🇸US_1|1.7MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_2|1.1MB/s - undefinedms
     type: vmess
     server: 82.198.246.37
     port: 180
@@ -98,24 +107,19 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 🇭🇰HK_1|1.6MB/s - undefinedms
     type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: planb.mojcn.com
+    port: 16622
+    uuid: 255456b5-4b3e-449f-8dd1-99fd7d21415a
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 37461892546988f67a6acfbe937e161b.mobgslb.tbcache.com
   - name: 🇫🇷 法国 27 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -1637,41 +1641,6 @@ proxies:
       path: /
       headers:
         Host: 10.a400.top
-  - name: 🇺🇸US_1|1.3MB/s - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_1|1.2MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16622
-    uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-  - name: 🇯🇵JP_1|1.0MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16617
-    uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -2214,14 +2183,14 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
+      - 俄罗斯 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 🇺🇸US_1|1.7MB/s - undefinedms
+      - 🇺🇸US_2|1.1MB/s - undefinedms
+      - 🇭🇰HK_1|1.6MB/s - undefinedms
       - 🇫🇷 法国 27 - undefinedms
       - 🇺🇸 美国 52 - undefinedms
       - 🇫🇷 法国 180 - undefinedms
@@ -2339,9 +2308,6 @@ proxy-groups:
       - 295 - undefinedms
       - 🇰🇷 韩国 311 - undefinedms
       - 🇺🇸 美国 329 - undefinedms
-      - 🇺🇸US_1|1.3MB/s - undefinedms
-      - 🇭🇰HK_1|1.2MB/s - undefinedms
-      - 🇯🇵JP_1|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2394,14 +2360,14 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
+      - 俄罗斯 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 🇺🇸US_1|1.7MB/s - undefinedms
+      - 🇺🇸US_2|1.1MB/s - undefinedms
+      - 🇭🇰HK_1|1.6MB/s - undefinedms
       - 🇫🇷 法国 27 - undefinedms
       - 🇺🇸 美国 52 - undefinedms
       - 🇫🇷 法国 180 - undefinedms
@@ -2519,9 +2485,6 @@ proxy-groups:
       - 295 - undefinedms
       - 🇰🇷 韩国 311 - undefinedms
       - 🇺🇸 美国 329 - undefinedms
-      - 🇺🇸US_1|1.3MB/s - undefinedms
-      - 🇭🇰HK_1|1.2MB/s - undefinedms
-      - 🇯🇵JP_1|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
