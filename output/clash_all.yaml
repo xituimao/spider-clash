@@ -18,20 +18,11 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 香港 电讯盈科有限公司 - undefinedms
     type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
     alterId: 0
     cipher: auto
     tls: false
@@ -39,6 +30,15 @@ proxies:
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -63,18 +63,9 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -107,6 +98,33 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 🇺🇸US_1|1011KB/s - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK_1|2.3MB/s - undefinedms
+    type: vmess
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK_2|1.3MB/s - undefinedms
+    type: vmess
+    server: vm51544542.dns8656815.com
+    port: 7754
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇫🇷 法国 131 - undefinedms
     type: vmess
     server: planb.mojcn.com
@@ -2452,175 +2470,6 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇯🇵JP_1|1.8MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16617
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  - name: 🇯🇵JP_2|2.1MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16617
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  - name: 🇯🇵JP_3|1.9MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16617
-    uuid: a866018e-c985-48bd-8f9b-18030b28dfb4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: b8a18b80fb6319752f0b13d6461d3426.mobgslb.tbcache.com
-  - name: 🇺🇸US_1|1.4MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16648
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  - name: 🇹🇼TW_1|1.5MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16616
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  - name: 🇸🇬SG_1|2.3MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16618
-    uuid: a866018e-c985-48bd-8f9b-18030b28dfb4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: b8a18b80fb6319752f0b13d6461d3426.mobgslb.tbcache.com
-  - name: 🇸🇬SG_2|1001KB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16618
-    uuid: a866018e-c985-48bd-8f9b-18030b28dfb4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: b8a18b80fb6319752f0b13d6461d3426.mobgslb.tbcache.com
-  - name: 🇭🇰HK_1|1003KB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16622
-    uuid: a866018e-c985-48bd-8f9b-18030b28dfb4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: b8a18b80fb6319752f0b13d6461d3426.mobgslb.tbcache.com
-  - name: 🇭🇰HK_2|1.3MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16622
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  - name: 🇫🇷FR_1|1.3MB/s - undefinedms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16645
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  - name: 🇭🇰HK_5|1.1MB/s - undefinedms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16622
-    uuid: 1a97d136-a66b-4959-a9cc-42ab7fee9462
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 77ca334818bda4db538ebedbe42e0859.mobgslb.tbcache.com
-  - name: 🇯🇵JP_5|2.0MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16617
-    uuid: 08be859c-d38e-4bfb-b7c7-3b5671ededc8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: fdf02e4c0e8d141c7375337b51f0efc4.mobgslb.tbcache.com
-  - name: 🇸🇬SG_4|1.4MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16618
-    uuid: 1a97d136-a66b-4959-a9cc-42ab7fee9462
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 77ca334818bda4db538ebedbe42e0859.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
     type: vmess
     server: 38.91.107.49
@@ -2688,20 +2537,165 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇺🇸_US_美国_1 - undefinedms
+    type: vmess
+    server: 104.26.0.206
+    port: 2086
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: p1.613055.xyz
+  - name: 🇺🇸_US_美国_4 - undefinedms
+    type: vmess
+    server: 104.26.0.15
+    port: 8880
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: m125.106778.xyz
+  - name: 🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: 5.39.254.196
+    port: 23140
+    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 5.39.254.196
+  - name: 🇺🇸_US_美国_7 - undefinedms
+    type: vmess
+    server: 162.159.45.53
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: e104.808075.xyz
+  - name: 🇺🇸_US_美国_9 - undefinedms
+    type: vmess
+    server: 104.26.0.100
+    port: 8880
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: m129.106778.xyz
+  - name: 🇷🇺_RU_俄罗斯_7 - undefinedms
+    type: vmess
+    server: 46.29.161.15
+    port: 19634
+    uuid: 600b472f-3e43-43a0-8815-a890a607891c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 46.29.161.15
+  - name: 🇺🇸_US_美国_10 - undefinedms
+    type: vmess
+    server: 162.159.45.47
+    port: 8880
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: m129.106778.xyz
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - undefinedms
+    type: vmess
+    server: 104.18.114.56
+    port: 8880
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: m1.106778.xyz
+  - name: 🇺🇸_US_美国_11 - undefinedms
+    type: vmess
+    server: 162.159.45.181
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: e104.808075.xyz
+  - name: 🇺🇸_US_美国_12 - undefinedms
+    type: vmess
+    server: 162.159.45.77
+    port: 8880
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: m129.106778.xyz
+  - name: 🇺🇸_US_美国_13 - undefinedms
+    type: vmess
+    server: 104.26.0.87
+    port: 2086
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: p132.613055.xyz
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_1|1011KB/s - undefinedms
+      - 🇭🇰HK_1|2.3MB/s - undefinedms
+      - 🇭🇰HK_2|1.3MB/s - undefinedms
       - 🇫🇷 法国 131 - undefinedms
       - 🇫🇷 法国 132 - undefinedms
       - 🇫🇷 法国 133 - undefinedms
@@ -2887,19 +2881,6 @@ proxy-groups:
       - 🇭🇰 香港 496 - undefinedms
       - 🇭🇰 香港 497 - undefinedms
       - 🇭🇰 香港 498 - undefinedms
-      - 🇯🇵JP_1|1.8MB/s - undefinedms
-      - 🇯🇵JP_2|2.1MB/s - undefinedms
-      - 🇯🇵JP_3|1.9MB/s - undefinedms
-      - 🇺🇸US_1|1.4MB/s - undefinedms
-      - 🇹🇼TW_1|1.5MB/s - undefinedms
-      - 🇸🇬SG_1|2.3MB/s - undefinedms
-      - 🇸🇬SG_2|1001KB/s - undefinedms
-      - 🇭🇰HK_1|1003KB/s - undefinedms
-      - 🇭🇰HK_2|1.3MB/s - undefinedms
-      - 🇫🇷FR_1|1.3MB/s - undefinedms
-      - 🇭🇰HK_5|1.1MB/s - undefinedms
-      - 🇯🇵JP_5|2.0MB/s - undefinedms
-      - 🇸🇬SG_4|1.4MB/s - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_check - undefinedms
@@ -2907,6 +2888,17 @@ proxy-groups:
       - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - undefinedms
       - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇺🇸_US_美国_1 - undefinedms
+      - 🇺🇸_US_美国_4 - undefinedms
+      - 🇬🇧_GB_英国 - undefinedms
+      - 🇺🇸_US_美国_7 - undefinedms
+      - 🇺🇸_US_美国_9 - undefinedms
+      - 🇷🇺_RU_俄罗斯_7 - undefinedms
+      - 🇺🇸_US_美国_10 - undefinedms
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - undefinedms
+      - 🇺🇸_US_美国_11 - undefinedms
+      - 🇺🇸_US_美国_12 - undefinedms
+      - 🇺🇸_US_美国_13 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -2914,15 +2906,17 @@ proxy-groups:
     proxies:
       - Auto Select
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 香港 电讯盈科有限公司 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_1|1011KB/s - undefinedms
+      - 🇭🇰HK_1|2.3MB/s - undefinedms
+      - 🇭🇰HK_2|1.3MB/s - undefinedms
       - 🇫🇷 法国 131 - undefinedms
       - 🇫🇷 法国 132 - undefinedms
       - 🇫🇷 法国 133 - undefinedms
@@ -3108,19 +3102,6 @@ proxy-groups:
       - 🇭🇰 香港 496 - undefinedms
       - 🇭🇰 香港 497 - undefinedms
       - 🇭🇰 香港 498 - undefinedms
-      - 🇯🇵JP_1|1.8MB/s - undefinedms
-      - 🇯🇵JP_2|2.1MB/s - undefinedms
-      - 🇯🇵JP_3|1.9MB/s - undefinedms
-      - 🇺🇸US_1|1.4MB/s - undefinedms
-      - 🇹🇼TW_1|1.5MB/s - undefinedms
-      - 🇸🇬SG_1|2.3MB/s - undefinedms
-      - 🇸🇬SG_2|1001KB/s - undefinedms
-      - 🇭🇰HK_1|1003KB/s - undefinedms
-      - 🇭🇰HK_2|1.3MB/s - undefinedms
-      - 🇫🇷FR_1|1.3MB/s - undefinedms
-      - 🇭🇰HK_5|1.1MB/s - undefinedms
-      - 🇯🇵JP_5|2.0MB/s - undefinedms
-      - 🇸🇬SG_4|1.4MB/s - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_check - undefinedms
@@ -3128,5 +3109,16 @@ proxy-groups:
       - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - undefinedms
       - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇺🇸_US_美国_1 - undefinedms
+      - 🇺🇸_US_美国_4 - undefinedms
+      - 🇬🇧_GB_英国 - undefinedms
+      - 🇺🇸_US_美国_7 - undefinedms
+      - 🇺🇸_US_美国_9 - undefinedms
+      - 🇷🇺_RU_俄罗斯_7 - undefinedms
+      - 🇺🇸_US_美国_10 - undefinedms
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - undefinedms
+      - 🇺🇸_US_美国_11 - undefinedms
+      - 🇺🇸_US_美国_12 - undefinedms
+      - 🇺🇸_US_美国_13 - undefinedms
 rules:
   - MATCH,Proxy
