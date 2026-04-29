@@ -5,19 +5,33 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 亚太地区 V2CROSS.COM - undefinedms
     type: vmess
     server: 103.181.164.145
@@ -27,11 +41,20 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
@@ -47,7 +70,7 @@ proxies:
     network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -56,7 +79,29 @@ proxies:
     network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.143.238.196
+    port: 21879
+    uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /vmesswss
+      headers:
+        Host: 103.143.238.196
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -89,7 +134,29 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇺🇸US_1|1.1MB/s - undefinedms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 电报群：https://t.me/vvkj11 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 日期：04-28 - undefinedms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -98,62 +165,9 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇯🇵JP_1|1.5MB/s - undefinedms
+  - name: 免费VPN：https://tt.vg/OWeaF - undefinedms
     type: vmess
-    server: 76c3.earthdraft.onezz.top
-    port: 22013
-    uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: ithome.com
-  - name: 🇸🇬SG_2|1.3MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16618
-    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
-  - name: 🇳🇱NL_2|2.8MB/s - undefinedms
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_2|1017KB/s - undefinedms
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 每天更新，请加电报群防止失联 - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 电报群：https://t.me/vvkj11 - undefinedms
-    type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -169,34 +183,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 11 - undefinedms
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 13 - undefinedms
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 14 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 15 - undefinedms
+  - name: 🇩🇪 德国 6 - undefinedms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -205,223 +192,25 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 17 - undefinedms
+  - name: 🇩🇪 德国 7 - undefinedms
     type: vmess
-    server: 82.198.246.250
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸 美国 20 - undefinedms
+  - name: 🇩🇪 德国 8 - undefinedms
     type: vmess
-    server: 216.167.126.14
-    port: 29709
-    uuid: c19c51e3-11ff-4f1c-92c6-200784acd4fc
+    server: 77.90.11.178
+    port: 17662
+    uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸 美国 23 - undefinedms
-    type: vmess
-    server: 156.236.76.85
-    port: 10920
-    uuid: 0902d6db-11d9-4d5d-e260-116796ecd58c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸 美国 24 - undefinedms
-    type: vmess
-    server: 38.207.177.134
-    port: 39742
-    uuid: 36cf6565-bc71-4f8c-9e30-a9cc6156e583
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 25 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 26 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 27 - undefinedms
-    type: vmess
-    server: vm51544542.dns8656815.com
-    port: 7754
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 28 - undefinedms
-    type: vmess
-    server: efan.dnsefan04881.com
-    port: 7754
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 29 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 30 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 31 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 32 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 33 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 34 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 35 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 36 - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 38 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇸🇬 新加坡 39 - undefinedms
-    type: vmess
-    server: 47.79.236.9
-    port: 47034
-    uuid: 6f2879e2-7595-4fc2-ca7e-3c163dbe0d4b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 40 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 41 - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 43 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸 美国 44 - undefinedms
-    type: vmess
-    server: 216.167.46.226
-    port: 57138
-    uuid: b18ae1c7-b9ef-433c-ebd0-36bb9c62cf86
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 45 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸 美国 46 - undefinedms
-    type: vmess
-    server: 35.212.177.67
-    port: 40029
-    uuid: e8ab37c7-2b1d-4776-c062-2cac8fc066e1
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 47 - undefinedms
+  - name: 🇭🇰 香港 11 - undefinedms
     type: vmess
     server: 38.22.93.20
     port: 55165
@@ -430,7 +219,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰 香港 48 - undefinedms
+  - name: 🇭🇰 香港 12 - undefinedms
     type: vmess
     server: 38.22.93.20
     port: 15079
@@ -439,24 +228,164 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇨🇳 中国 76 - undefinedms
+  - name: 🇮🇩 印度尼西亚 17 - undefinedms
     type: vmess
-    server: 76c3.earthdraft.onezz.top
-    port: 20010
-    uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: ithome.com
-  - name: 🇫🇷 法国 90 - undefinedms
+    network: tcp
+  - name: 🇩🇪 德国 21 - undefinedms
     type: vmess
-    server: t.cnmjcn.cyou
-    port: 16616
-    uuid: f091e44a-daee-4782-a910-d699a0c1145f
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵 日本 22 - undefinedms
+    type: vmess
+    server: 103.127.243.59
+    port: 56738
+    uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 23 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵 日本 24 - undefinedms
+    type: vmess
+    server: 103.127.243.55
+    port: 58051
+    uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 25 - undefinedms
+    type: vmess
+    server: 77.90.11.178
+    port: 17662
+    uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 26 - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 27 - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 28 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 29 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾 马来西亚 31 - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾 马来西亚 33 - undefinedms
+    type: vmess
+    server: v6.hdacd.com
+    port: 30806
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 41 - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 42 - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾 马来西亚 43 - undefinedms
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 45 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇩 印度尼西亚 47 - undefinedms
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇫🇷 法国 60 - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16622
+    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
     alterId: 0
     cipher: auto
     tls: false
@@ -464,12 +393,64 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 91 - undefinedms
+        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
+  - name: 🇫🇷 法国 65 - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16632
+    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
+  - name: 🇫🇷 法国 66 - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16622
+    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
+  - name: 🇫🇷 法国 68 - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16617
+    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
+  - name: 🇫🇷 法国 71 - undefinedms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16622
+    uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
+  - name: 🇫🇷 法国 72 - undefinedms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16617
-    uuid: f091e44a-daee-4782-a910-d699a0c1145f
+    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
     alterId: 0
     cipher: auto
     tls: false
@@ -477,21 +458,47 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
-  - name: 🇨🇳 中国 99 - undefinedms
+        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
+  - name: 🇺🇸 美国 79 - undefinedms
     type: vmess
-    server: 76c3.earthdraft.onezz.top
-    port: 22013
-    uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+    server: 216.167.38.98
+    port: 41037
+    uuid: 29fe2b50-4387-4e2f-a453-f63cc617a15c
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /chat
+      path: /
       headers:
-        Host: ithome.com
-  - name: 🇫🇷 法国 612 - undefinedms
+        Host: 216.167.38.98
+  - name: 🇰🇷 韩国 245 - undefinedms
+    type: vmess
+    server: kr02.a0a.xyz
+    port: 80
+    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /cctv13.m3u8
+      headers:
+        Host: kr02.a0a.xyz
+  - name: 🇫🇷 法国 255 - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16644
+    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
+  - name: 🇫🇷 法国 294 - undefinedms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16641
@@ -504,47 +511,11 @@ proxies:
       path: /
       headers:
         Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+  - name: 🇫🇷 法国 351 - undefinedms
     type: vmess
-    server: 38.91.107.49
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 · proxy_check - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - undefinedms
-    type: vmess
-    server: 213.156.141.52
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - undefinedms
-    type: vmess
-    server: planb.mojcn.com
+    server: t.cnmjcn.cyou
     port: 16617
-    uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
+    uuid: f091e44a-daee-4782-a910-d699a0c1145f
     alterId: 0
     cipher: auto
     tls: false
@@ -552,25 +523,33 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
-  - name: 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - undefinedms
+        Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
+  - name: 🇯🇵 日本 352 - undefinedms
     type: vmess
-    server: 23.162.200.198
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    server: 76c3.earthdraft.onezz.top
+    port: 22013
+    uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: ithome.com
+  - name: 🇭🇰HK_1|1.3MB/s - undefinedms
     type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: m.cnmjin.net
+    port: 16632
+    uuid: 6df40ca9-5c38-4a75-adf4-e39663733ee1
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 0ee06983c43a249fba89408bfdf41bb0.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -896,6 +875,73 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 · proxy_check - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - undefinedms
+    type: vmess
+    server: 213.156.141.52
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16617
+    uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
+  - name: 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - undefinedms
+    type: vmess
+    server: 23.162.200.198
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -1043,64 +1089,59 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_1|1.1MB/s - undefinedms
-      - 🇯🇵JP_1|1.5MB/s - undefinedms
-      - 🇸🇬SG_2|1.3MB/s - undefinedms
-      - 🇳🇱NL_2|2.8MB/s - undefinedms
-      - 🇺🇸US_2|1017KB/s - undefinedms
-      - 每天更新，请加电报群防止失联 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
+      - 日期：04-28 - undefinedms
+      - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇩🇪 德国 5 - undefinedms
-      - 🇩🇪 德国 11 - undefinedms
-      - 🇩🇪 德国 13 - undefinedms
-      - 🇩🇪 德国 14 - undefinedms
-      - 🇩🇪 德国 15 - undefinedms
-      - 🇩🇪 德国 17 - undefinedms
-      - 🇺🇸 美国 20 - undefinedms
-      - 🇺🇸 美国 23 - undefinedms
-      - 🇺🇸 美国 24 - undefinedms
+      - 🇩🇪 德国 6 - undefinedms
+      - 🇩🇪 德国 7 - undefinedms
+      - 🇩🇪 德国 8 - undefinedms
+      - 🇭🇰 香港 11 - undefinedms
+      - 🇭🇰 香港 12 - undefinedms
+      - 🇮🇩 印度尼西亚 17 - undefinedms
+      - 🇩🇪 德国 21 - undefinedms
+      - 🇯🇵 日本 22 - undefinedms
+      - 🇩🇪 德国 23 - undefinedms
+      - 🇯🇵 日本 24 - undefinedms
       - 🇩🇪 德国 25 - undefinedms
       - 🇩🇪 德国 26 - undefinedms
-      - 🇭🇰 香港 27 - undefinedms
-      - 🇭🇰 香港 28 - undefinedms
-      - 🇭🇰 香港 29 - undefinedms
-      - 🇭🇰 香港 30 - undefinedms
-      - 🇩🇪 德国 31 - undefinedms
-      - 🇩🇪 德国 32 - undefinedms
-      - 🇩🇪 德国 33 - undefinedms
-      - 🇩🇪 德国 34 - undefinedms
-      - 🇩🇪 德国 35 - undefinedms
-      - 🇩🇪 德国 36 - undefinedms
-      - 🇩🇪 德国 38 - undefinedms
-      - 🇸🇬 新加坡 39 - undefinedms
-      - 🇭🇰 香港 40 - undefinedms
+      - 🇩🇪 德国 27 - undefinedms
+      - 🇩🇪 德国 28 - undefinedms
+      - 🇩🇪 德国 29 - undefinedms
+      - 🇲🇾 马来西亚 31 - undefinedms
+      - 🇲🇾 马来西亚 33 - undefinedms
       - 🇩🇪 德国 41 - undefinedms
-      - 🇭🇰 香港 43 - undefinedms
-      - 🇺🇸 美国 44 - undefinedms
+      - 🇩🇪 德国 42 - undefinedms
+      - 🇲🇾 马来西亚 43 - undefinedms
       - 🇩🇪 德国 45 - undefinedms
-      - 🇺🇸 美国 46 - undefinedms
-      - 🇭🇰 香港 47 - undefinedms
-      - 🇭🇰 香港 48 - undefinedms
-      - 🇨🇳 中国 76 - undefinedms
-      - 🇫🇷 法国 90 - undefinedms
-      - 🇫🇷 法国 91 - undefinedms
-      - 🇨🇳 中国 99 - undefinedms
-      - 🇫🇷 法国 612 - undefinedms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
-      - 🇺🇸_US_美国 · proxy_check - undefinedms
-      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - undefinedms
-      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - undefinedms
-      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - undefinedms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇮🇩 印度尼西亚 47 - undefinedms
+      - 🇫🇷 法国 60 - undefinedms
+      - 🇫🇷 法国 65 - undefinedms
+      - 🇫🇷 法国 66 - undefinedms
+      - 🇫🇷 法国 68 - undefinedms
+      - 🇫🇷 法国 71 - undefinedms
+      - 🇫🇷 法国 72 - undefinedms
+      - 🇺🇸 美国 79 - undefinedms
+      - 🇰🇷 韩国 245 - undefinedms
+      - 🇫🇷 法国 255 - undefinedms
+      - 🇫🇷 法国 294 - undefinedms
+      - 🇫🇷 法国 351 - undefinedms
+      - 🇯🇵 日本 352 - undefinedms
+      - 🇭🇰HK_1|1.3MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1126,6 +1167,13 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇺🇸_US_美国 · proxy_check - undefinedms
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - undefinedms
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - undefinedms
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -1143,64 +1191,59 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_1|1.1MB/s - undefinedms
-      - 🇯🇵JP_1|1.5MB/s - undefinedms
-      - 🇸🇬SG_2|1.3MB/s - undefinedms
-      - 🇳🇱NL_2|2.8MB/s - undefinedms
-      - 🇺🇸US_2|1017KB/s - undefinedms
-      - 每天更新，请加电报群防止失联 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
+      - 日期：04-28 - undefinedms
+      - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇩🇪 德国 5 - undefinedms
-      - 🇩🇪 德国 11 - undefinedms
-      - 🇩🇪 德国 13 - undefinedms
-      - 🇩🇪 德国 14 - undefinedms
-      - 🇩🇪 德国 15 - undefinedms
-      - 🇩🇪 德国 17 - undefinedms
-      - 🇺🇸 美国 20 - undefinedms
-      - 🇺🇸 美国 23 - undefinedms
-      - 🇺🇸 美国 24 - undefinedms
+      - 🇩🇪 德国 6 - undefinedms
+      - 🇩🇪 德国 7 - undefinedms
+      - 🇩🇪 德国 8 - undefinedms
+      - 🇭🇰 香港 11 - undefinedms
+      - 🇭🇰 香港 12 - undefinedms
+      - 🇮🇩 印度尼西亚 17 - undefinedms
+      - 🇩🇪 德国 21 - undefinedms
+      - 🇯🇵 日本 22 - undefinedms
+      - 🇩🇪 德国 23 - undefinedms
+      - 🇯🇵 日本 24 - undefinedms
       - 🇩🇪 德国 25 - undefinedms
       - 🇩🇪 德国 26 - undefinedms
-      - 🇭🇰 香港 27 - undefinedms
-      - 🇭🇰 香港 28 - undefinedms
-      - 🇭🇰 香港 29 - undefinedms
-      - 🇭🇰 香港 30 - undefinedms
-      - 🇩🇪 德国 31 - undefinedms
-      - 🇩🇪 德国 32 - undefinedms
-      - 🇩🇪 德国 33 - undefinedms
-      - 🇩🇪 德国 34 - undefinedms
-      - 🇩🇪 德国 35 - undefinedms
-      - 🇩🇪 德国 36 - undefinedms
-      - 🇩🇪 德国 38 - undefinedms
-      - 🇸🇬 新加坡 39 - undefinedms
-      - 🇭🇰 香港 40 - undefinedms
+      - 🇩🇪 德国 27 - undefinedms
+      - 🇩🇪 德国 28 - undefinedms
+      - 🇩🇪 德国 29 - undefinedms
+      - 🇲🇾 马来西亚 31 - undefinedms
+      - 🇲🇾 马来西亚 33 - undefinedms
       - 🇩🇪 德国 41 - undefinedms
-      - 🇭🇰 香港 43 - undefinedms
-      - 🇺🇸 美国 44 - undefinedms
+      - 🇩🇪 德国 42 - undefinedms
+      - 🇲🇾 马来西亚 43 - undefinedms
       - 🇩🇪 德国 45 - undefinedms
-      - 🇺🇸 美国 46 - undefinedms
-      - 🇭🇰 香港 47 - undefinedms
-      - 🇭🇰 香港 48 - undefinedms
-      - 🇨🇳 中国 76 - undefinedms
-      - 🇫🇷 法国 90 - undefinedms
-      - 🇫🇷 法国 91 - undefinedms
-      - 🇨🇳 中国 99 - undefinedms
-      - 🇫🇷 法国 612 - undefinedms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
-      - 🇺🇸_US_美国 · proxy_check - undefinedms
-      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - undefinedms
-      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - undefinedms
-      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - undefinedms
-      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇮🇩 印度尼西亚 47 - undefinedms
+      - 🇫🇷 法国 60 - undefinedms
+      - 🇫🇷 法国 65 - undefinedms
+      - 🇫🇷 法国 66 - undefinedms
+      - 🇫🇷 法国 68 - undefinedms
+      - 🇫🇷 法国 71 - undefinedms
+      - 🇫🇷 法国 72 - undefinedms
+      - 🇺🇸 美国 79 - undefinedms
+      - 🇰🇷 韩国 245 - undefinedms
+      - 🇫🇷 法国 255 - undefinedms
+      - 🇫🇷 法国 294 - undefinedms
+      - 🇫🇷 法国 351 - undefinedms
+      - 🇯🇵 日本 352 - undefinedms
+      - 🇭🇰HK_1|1.3MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1226,6 +1269,13 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇺🇸_US_美国 · proxy_check - undefinedms
+      - 🇭🇰_HK_中国香港 · proxy_pool:tt.vg/freev2 - undefinedms
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_pool:snakem982/proxypool - undefinedms
+      - 🇨🇦_CA_加拿大 · proxy_pool:V2RayAutoConfig - undefinedms
+      - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
