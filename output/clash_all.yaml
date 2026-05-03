@@ -5,115 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: US VMESS-160 | free-nodes - undefinedms
+  - name: US VMESS-156 | free-nodes - undefinedms
     type: vmess
     server: s842.ccgfw.top
     port: 443
@@ -126,6 +18,19 @@ proxies:
       path: /ssp-ws
       headers:
         Host: s842.ccgfw.top
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -152,19 +57,60 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
+    network: tcp
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 加利福尼亚州旧金山市Awknet通信公司 - undefinedms
+    type: vmess
+    server: 67.220.95.3
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    network: tcp
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇩🇪 德国 165 - undefinedms
     type: vmess
     server: 82.198.246.214
@@ -1553,33 +1499,6 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: US美国(mibei77.com 米贝节点分享)-14|1.1MB/s - undefinedms
-    type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
     type: vmess
     server: 38.91.107.49
@@ -2119,22 +2038,16 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - US VMESS-160 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - US VMESS-156 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 美国 加利福尼亚州旧金山市Awknet通信公司 - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
       - 🇩🇪 德国 165 - undefinedms
       - 🇩🇪 德国 166 - undefinedms
       - 🇩🇪 德国 167 - undefinedms
@@ -2271,9 +2184,6 @@ proxy-groups:
       - 298 - undefinedms
       - 299 - undefinedms
       - 🇲🇾 马来西亚 300 - undefinedms
-      - US美国(mibei77.com 米贝节点分享)-14|1.1MB/s - undefinedms
-      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_check - undefinedms
@@ -2323,22 +2233,16 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - US VMESS-160 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - US VMESS-156 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 美国 加利福尼亚州旧金山市Awknet通信公司 - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
       - 🇩🇪 德国 165 - undefinedms
       - 🇩🇪 德国 166 - undefinedms
       - 🇩🇪 德国 167 - undefinedms
@@ -2475,9 +2379,6 @@ proxy-groups:
       - 298 - undefinedms
       - 299 - undefinedms
       - 🇲🇾 马来西亚 300 - undefinedms
-      - US美国(mibei77.com 米贝节点分享)-14|1.1MB/s - undefinedms
-      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_pool:V2RayAutoConfig - undefinedms
       - 🇺🇸_US_美国 · proxy_check - undefinedms
