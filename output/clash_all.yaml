@@ -5,7 +5,20 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: US VMESS-138 | free-nodes - undefinedms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: US VMESS-136 | free-nodes - undefinedms
     type: vmess
     server: s842.ccgfw.top
     port: 443
@@ -44,19 +57,78 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+  - name: 🇺🇸US_1|1.3MB/s - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
+    network: tcp
+  - name: 🇺🇸US_2|4.1MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_3|4.0MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_4|2.3MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_5|3.8MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_6|1.0MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_7|1.5MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK_2|1.2MB/s - undefinedms
+    type: vmess
+    server: v13.zgtfqs.click
+    port: 30813
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 电报群：https://t.me/vvkj11 - undefinedms
     type: vmess
     server: 103.127.243.49
@@ -1390,24 +1462,6 @@ proxies:
       path: /vc
       headers:
         Host: vc.fly.dev
-  - name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -1876,14 +1930,40 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
+  - name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - US VMESS-138 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - US VMESS-136 | free-nodes - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_1|1.3MB/s - undefinedms
+      - 🇺🇸US_2|4.1MB/s - undefinedms
+      - 🇺🇸US_3|4.0MB/s - undefinedms
+      - 🇺🇸US_4|2.3MB/s - undefinedms
+      - 🇺🇸US_5|3.8MB/s - undefinedms
+      - 🇺🇸US_6|1.0MB/s - undefinedms
+      - 🇺🇸US_7|1.5MB/s - undefinedms
+      - 🇭🇰HK_2|1.2MB/s - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇭🇰 香港 5 - undefinedms
@@ -2029,8 +2109,6 @@ proxy-groups:
       - 🇲🇾 马来西亚 542 - undefinedms
       - 🇲🇾 马来西亚 543 - undefinedms
       - 🇺🇸 美国 544 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2067,16 +2145,26 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - US VMESS-138 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - US VMESS-136 | free-nodes - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_1|1.3MB/s - undefinedms
+      - 🇺🇸US_2|4.1MB/s - undefinedms
+      - 🇺🇸US_3|4.0MB/s - undefinedms
+      - 🇺🇸US_4|2.3MB/s - undefinedms
+      - 🇺🇸US_5|3.8MB/s - undefinedms
+      - 🇺🇸US_6|1.0MB/s - undefinedms
+      - 🇺🇸US_7|1.5MB/s - undefinedms
+      - 🇭🇰HK_2|1.2MB/s - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇭🇰 香港 5 - undefinedms
@@ -2222,8 +2310,6 @@ proxy-groups:
       - 🇲🇾 马来西亚 542 - undefinedms
       - 🇲🇾 马来西亚 543 - undefinedms
       - 🇺🇸 美国 544 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2260,5 +2346,7 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
 rules:
   - MATCH,Proxy
