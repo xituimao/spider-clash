@@ -5,32 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: US VMESS-141 | free-nodes - undefinedms
-    type: vmess
-    server: s842.ccgfw.top
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ssp-ws
-      headers:
-        Host: s842.ccgfw.top
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -57,6 +31,37 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇩🇪 德国 6 - undefinedms
     type: vmess
     server: 82.198.246.214
@@ -1234,21 +1239,39 @@ proxies:
       path: /
       headers:
         Host: n1753101277.4u9ma.icu
-  - name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+  - name: 🇺🇸US_2|2.1MB/s - undefinedms
     type: vmess
-    server: v35.hdacd.com
-    port: 30835
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_4|2.9MB/s - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_7|1.3MB/s - undefinedms
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
+  - name: 🇹🇼TW_2|3.6MB/s - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
+    server: v13.zgtfqs.click
+    port: 30813
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     network: tcp
@@ -1720,14 +1743,46 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: US VMESS-133 | free-nodes - undefinedms
+    type: vmess
+    server: s842.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ssp-ws
+      headers:
+        Host: s842.ccgfw.top
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - US VMESS-141 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇩🇪 德国 6 - undefinedms
       - 🇩🇪 德国 9 - undefinedms
       - 🇩🇪 德国 22 - undefinedms
@@ -1857,8 +1912,10 @@ proxy-groups:
       - 🇭🇰 香港 223 - undefinedms
       - 🇭🇰 香港 224 - undefinedms
       - 🇭🇰 香港 227 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
+      - 🇺🇸US_2|2.1MB/s - undefinedms
+      - 🇺🇸US_4|2.9MB/s - undefinedms
+      - 🇺🇸US_7|1.3MB/s - undefinedms
+      - 🇹🇼TW_2|3.6MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1895,16 +1952,20 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - US VMESS-133 | free-nodes - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - US VMESS-141 | free-nodes - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇩🇪 德国 6 - undefinedms
       - 🇩🇪 德国 9 - undefinedms
       - 🇩🇪 德国 22 - undefinedms
@@ -2034,8 +2095,10 @@ proxy-groups:
       - 🇭🇰 香港 223 - undefinedms
       - 🇭🇰 香港 224 - undefinedms
       - 🇭🇰 香港 227 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
+      - 🇺🇸US_2|2.1MB/s - undefinedms
+      - 🇺🇸US_4|2.9MB/s - undefinedms
+      - 🇺🇸US_7|1.3MB/s - undefinedms
+      - 🇹🇼TW_2|3.6MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -2072,5 +2135,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - US VMESS-133 | free-nodes - undefinedms
 rules:
   - MATCH,Proxy
