@@ -31,24 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -62,7 +44,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: US VMESS-129 | free-nodes - undefinedms
+  - name: US VMESS-136 | free-nodes - undefinedms
     type: vmess
     server: s842.ccgfw.top
     port: 443
@@ -75,6 +57,24 @@ proxies:
       path: /ssp-ws
       headers:
         Host: s842.ccgfw.top
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 免费VPN：https://tt.vg/OWeaF - undefinedms
     type: vmess
     server: 82.198.246.9
@@ -1288,46 +1288,6 @@ proxies:
       path: /github.com/Alvin9999-newpac/fanqiang
       headers:
         Host: 2a02:6ea0:d32f::f8fe:349b
-  - name: 🇺🇸US_1|1.3MB/s - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_4|2.7MB/s - undefinedms
-    type: vmess
-    server: cf.scpnb.top
-    port: 443
-    uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69-vm
-      headers:
-        Host: partition-shepherd-vic-behalf.trycloudflare.com
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 47.239.69.43
-    port: 56698
-    uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -1471,6 +1431,24 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 47.239.69.43
+    port: 56698
+    uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1802,10 +1780,10 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - US VMESS-129 | free-nodes - undefinedms
+      - US VMESS-136 | free-nodes - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇩🇪 德国 6 - undefinedms
       - 🇩🇪 德国 20 - undefinedms
@@ -1939,10 +1917,6 @@ proxy-groups:
       - 🇫🇷 法国 183 - undefinedms
       - 🇫🇷 法国 184 - undefinedms
       - 🇯🇵 日本 190 - undefinedms
-      - 🇺🇸US_1|1.3MB/s - undefinedms
-      - 🇺🇸US_4|2.7MB/s - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -1954,6 +1928,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1987,10 +1963,10 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - US VMESS-129 | free-nodes - undefinedms
+      - US VMESS-136 | free-nodes - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇩🇪 德国 6 - undefinedms
       - 🇩🇪 德国 20 - undefinedms
@@ -2124,10 +2100,6 @@ proxy-groups:
       - 🇫🇷 法国 183 - undefinedms
       - 🇫🇷 法国 184 - undefinedms
       - 🇯🇵 日本 190 - undefinedms
-      - 🇺🇸US_1|1.3MB/s - undefinedms
-      - 🇺🇸US_4|2.7MB/s - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2139,6 +2111,8 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
