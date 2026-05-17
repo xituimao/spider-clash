@@ -5,6 +5,32 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: US VMESS-131 | free-nodes - undefinedms
+    type: vmess
+    server: s842.ccgfw.top
+    port: 443
+    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ssp-ws
+      headers:
+        Host: s842.ccgfw.top
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,96 +57,7 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: US VMESS-136 | free-nodes - undefinedms
-    type: vmess
-    server: s842.ccgfw.top
-    port: 443
-    uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ssp-ws
-      headers:
-        Host: s842.ccgfw.top
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 免费VPN：https://tt.vg/OWeaF - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 6 - undefinedms
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 20 - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 22 - undefinedms
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 23 - undefinedms
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 25 - undefinedms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -129,9 +66,126 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 26 - undefinedms
+  - name: 电报群：https://t.me/vvkj11 - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 日期：05-17 - undefinedms
+    type: vmess
+    server: v24.hdacd.com
+    port: 30824
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 免费VPN：https://tt.vg/OWeaF - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾 马来西亚 5 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾 马来西亚 6 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾 马来西亚 7 - undefinedms
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾 马来西亚 8 - undefinedms
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵 日本 9 - undefinedms
+    type: vmess
+    server: 103.127.243.49
+    port: 53224
+    uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰 香港 10 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 21 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 22 - undefinedms
     type: vmess
     server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 24 - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 25 - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 26 - undefinedms
+    type: vmess
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -140,7 +194,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 27 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -149,16 +203,16 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 28 - undefinedms
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 29 - undefinedms
+  - name: 🇩🇪 德国 30 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -167,7 +221,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 31 - undefinedms
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -185,7 +239,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 33 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -203,7 +257,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 35 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -212,7 +266,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 36 - undefinedms
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -230,7 +284,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 38 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -239,7 +293,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 39 - undefinedms
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -266,7 +320,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 42 - undefinedms
     type: vmess
-    server: 82.198.246.250
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -284,7 +338,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 44 - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -293,7 +347,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 45 - undefinedms
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -311,7 +365,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 47 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -320,7 +374,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 48 - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -329,16 +383,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 49 - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 50 - undefinedms
-    type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -347,7 +392,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 51 - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -365,7 +410,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 53 - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -374,7 +419,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 54 - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -383,7 +428,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 55 - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -410,7 +455,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 58 - undefinedms
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -419,7 +464,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 59 - undefinedms
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -473,7 +518,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 65 - undefinedms
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -482,7 +527,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 66 - undefinedms
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -491,7 +536,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 67 - undefinedms
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -518,7 +563,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 70 - undefinedms
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -536,7 +581,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 72 - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -545,7 +590,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 73 - undefinedms
     type: vmess
-    server: 82.198.246.37
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -554,7 +599,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 74 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -563,7 +608,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 75 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -597,18 +642,9 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 79 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇩🇪 德国 80 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -617,7 +653,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 81 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -626,16 +662,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 82 - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 83 - undefinedms
-    type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -644,18 +671,18 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 84 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰 香港 85 - undefinedms
+  - name: 🇩🇪 德国 85 - undefinedms
     type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
@@ -671,7 +698,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 87 - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -689,7 +716,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 89 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -698,7 +725,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 90 - undefinedms
     type: vmess
-    server: 82.198.246.37
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -707,95 +734,14 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 91 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 95 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 96 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 97 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 98 - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 99 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 100 - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 101 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 102 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 103 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 104 - undefinedms
+  - name: 🇩🇪 德国 92 - undefinedms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -804,9 +750,117 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇩🇪 德国 93 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 94 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 95 - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 96 - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 97 - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 98 - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 99 - undefinedms
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 100 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 101 - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 102 - undefinedms
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 103 - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 104 - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇩🇪 德国 105 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -822,45 +876,36 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 107 - undefinedms
+  - name: 🇭🇰 香港 108 - undefinedms
     type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰 香港 109 - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 108 - undefinedms
+  - name: 🇭🇰 香港 110 - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 109 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 110 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
   - name: 🇩🇪 德国 111 - undefinedms
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -869,7 +914,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 112 - undefinedms
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -878,7 +923,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 113 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -887,7 +932,7 @@ proxies:
     network: tcp
   - name: 🇩🇪 德国 114 - undefinedms
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -921,38 +966,11 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 118 - undefinedms
+  - name: 🇭🇰 香港 121 - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 119 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 120 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 121 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     tls: false
@@ -966,178 +984,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇯🇵 日本 123 - undefinedms
-    type: vmess
-    server: 103.127.243.49
-    port: 53224
-    uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 124 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 128 - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 129 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 130 - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 131 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 132 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 133 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 134 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 135 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 136 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 137 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 138 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 139 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇲🇾 马来西亚 161 - undefinedms
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩 印度尼西亚 162 - undefinedms
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 163 - undefinedms
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇯🇵 日本 164 - undefinedms
-    type: vmess
-    server: 103.127.243.49
-    port: 53224
-    uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩 印度尼西亚 165 - undefinedms
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇯🇵 日本 166 - undefinedms
+  - name: 🇯🇵 日本 125 - undefinedms
     type: vmess
     server: 103.127.243.59
     port: 56738
@@ -1146,34 +993,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰 香港 167 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰 香港 168 - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩 印度尼西亚 169 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 170 - undefinedms
+  - name: 🇩🇪 德国 126 - undefinedms
     type: vmess
     server: 82.198.246.233
     port: 180
@@ -1182,16 +1002,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇮🇩 印度尼西亚 171 - undefinedms
+  - name: 🇩🇪 德国 127 - undefinedms
     type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 172 - undefinedms
+  - name: 🇩🇪 德国 128 - undefinedms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -1200,16 +1020,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 173 - undefinedms
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪 德国 174 - undefinedms
+  - name: 🇩🇪 德国 129 - undefinedms
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -1218,7 +1029,259 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇩🇪 德国 175 - undefinedms
+  - name: 🇩🇪 德国 130 - undefinedms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 131 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 132 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 133 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 134 - undefinedms
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 135 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 136 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 137 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 138 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 139 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 140 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 141 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 142 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 143 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 144 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 145 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 146 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 147 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 148 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 149 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 150 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 151 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 152 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 153 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 154 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 155 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 159 - undefinedms
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰 香港 163 - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 164 - undefinedms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -1227,55 +1290,34 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰 香港 176 - undefinedms
+  - name: 🇩🇪 德国 165 - undefinedms
     type: vmess
-    server: v10.hdacd.com
-    port: 30807
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪 德国 166 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇲🇾 马来西亚 167 - undefinedms
+    type: vmess
+    server: v6.hdacd.com
+    port: 30806
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰 香港 179 - undefinedms
-    type: vmess
-    server: v3.cdn.wp85x4frjf6x.jjxdns.net
-    port: 31723
-    uuid: 29e5f410-68ce-33e0-b0ed-be1f73ab2088
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
-      headers:
-        Host: v3.cdn.wp85x4frjf6x.jjxdns.net
-  - name: 🇫🇷 法国 183 - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16632
-    uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-  - name: 🇫🇷 法国 184 - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16616
-    uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-  - name: 🇯🇵 日本 190 - undefinedms
+  - name: 🇯🇵 日本 192 - undefinedms
     type: vmess
     server: 2a02:6ea0:d32f::f8fe:349b
     port: 24202
@@ -1288,6 +1330,50 @@ proxies:
       path: /github.com/Alvin9999-newpac/fanqiang
       headers:
         Host: 2a02:6ea0:d32f::f8fe:349b
+  - name: 🇭🇰 香港 194 - undefinedms
+    type: vmess
+    server: v3.cdn.wp85x4frjf6x.jjxdns.net
+    port: 31723
+    uuid: 29e5f410-68ce-33e0-b0ed-be1f73ab2088
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+      headers:
+        Host: v3.cdn.wp85x4frjf6x.jjxdns.net
+  - name: 🇭🇰 香港 254 - undefinedms
+    type: vmess
+    server: n1761296889.4u9ma.icu
+    port: 443
+    uuid: 5fdc6ab1-8347-411c-9bbf-fbc3ea853d2f
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: n1761296889.4u9ma.icu
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 47.239.69.43
+    port: 56698
+    uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -1431,24 +1517,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 47.239.69.43
-    port: 56698
-    uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1778,22 +1846,28 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - US VMESS-136 | free-nodes - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
+      - US VMESS-131 | free-nodes - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 电报群：https://t.me/vvkj11 - undefinedms
+      - 日期：05-17 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
-      - 🇩🇪 德国 6 - undefinedms
-      - 🇩🇪 德国 20 - undefinedms
+      - 🇲🇾 马来西亚 5 - undefinedms
+      - 🇲🇾 马来西亚 6 - undefinedms
+      - 🇲🇾 马来西亚 7 - undefinedms
+      - 🇲🇾 马来西亚 8 - undefinedms
+      - 🇯🇵 日本 9 - undefinedms
+      - 🇭🇰 香港 10 - undefinedms
+      - 🇩🇪 德国 21 - undefinedms
       - 🇩🇪 德国 22 - undefinedms
-      - 🇩🇪 德国 23 - undefinedms
+      - 🇩🇪 德国 24 - undefinedms
       - 🇩🇪 德国 25 - undefinedms
       - 🇩🇪 德国 26 - undefinedms
       - 🇩🇪 德国 27 - undefinedms
       - 🇩🇪 德国 28 - undefinedms
-      - 🇩🇪 德国 29 - undefinedms
+      - 🇩🇪 德国 30 - undefinedms
       - 🇩🇪 德国 31 - undefinedms
       - 🇩🇪 德国 32 - undefinedms
       - 🇩🇪 德国 33 - undefinedms
@@ -1813,7 +1887,6 @@ proxy-groups:
       - 🇩🇪 德国 47 - undefinedms
       - 🇩🇪 德国 48 - undefinedms
       - 🇩🇪 德国 49 - undefinedms
-      - 🇩🇪 德国 50 - undefinedms
       - 🇩🇪 德国 51 - undefinedms
       - 🇩🇪 德国 52 - undefinedms
       - 🇩🇪 德国 53 - undefinedms
@@ -1842,19 +1915,20 @@ proxy-groups:
       - 🇩🇪 德国 76 - undefinedms
       - 🇩🇪 德国 77 - undefinedms
       - 🇩🇪 德国 78 - undefinedms
-      - 🇩🇪 德国 79 - undefinedms
       - 🇩🇪 德国 80 - undefinedms
       - 🇩🇪 德国 81 - undefinedms
       - 🇩🇪 德国 82 - undefinedms
-      - 🇩🇪 德国 83 - undefinedms
       - 🇩🇪 德国 84 - undefinedms
-      - 🇭🇰 香港 85 - undefinedms
+      - 🇩🇪 德国 85 - undefinedms
       - 🇩🇪 德国 86 - undefinedms
       - 🇩🇪 德国 87 - undefinedms
       - 🇩🇪 德国 88 - undefinedms
       - 🇩🇪 德国 89 - undefinedms
       - 🇩🇪 德国 90 - undefinedms
       - 🇩🇪 德国 91 - undefinedms
+      - 🇩🇪 德国 92 - undefinedms
+      - 🇩🇪 德国 93 - undefinedms
+      - 🇩🇪 德国 94 - undefinedms
       - 🇩🇪 德国 95 - undefinedms
       - 🇩🇪 德国 96 - undefinedms
       - 🇩🇪 德国 97 - undefinedms
@@ -1867,10 +1941,9 @@ proxy-groups:
       - 🇩🇪 德国 104 - undefinedms
       - 🇩🇪 德国 105 - undefinedms
       - 🇩🇪 德国 106 - undefinedms
-      - 🇩🇪 德国 107 - undefinedms
-      - 🇩🇪 德国 108 - undefinedms
-      - 🇩🇪 德国 109 - undefinedms
-      - 🇩🇪 德国 110 - undefinedms
+      - 🇭🇰 香港 108 - undefinedms
+      - 🇭🇰 香港 109 - undefinedms
+      - 🇭🇰 香港 110 - undefinedms
       - 🇩🇪 德国 111 - undefinedms
       - 🇩🇪 德国 112 - undefinedms
       - 🇩🇪 德国 113 - undefinedms
@@ -1878,13 +1951,11 @@ proxy-groups:
       - 🇩🇪 德国 115 - undefinedms
       - 🇩🇪 德国 116 - undefinedms
       - 🇩🇪 德国 117 - undefinedms
-      - 🇩🇪 德国 118 - undefinedms
-      - 🇩🇪 德国 119 - undefinedms
-      - 🇩🇪 德国 120 - undefinedms
-      - 🇩🇪 德国 121 - undefinedms
+      - 🇭🇰 香港 121 - undefinedms
       - 🇭🇰 香港 122 - undefinedms
-      - 🇯🇵 日本 123 - undefinedms
-      - 🇩🇪 德国 124 - undefinedms
+      - 🇯🇵 日本 125 - undefinedms
+      - 🇩🇪 德国 126 - undefinedms
+      - 🇩🇪 德国 127 - undefinedms
       - 🇩🇪 德国 128 - undefinedms
       - 🇩🇪 德国 129 - undefinedms
       - 🇩🇪 德国 130 - undefinedms
@@ -1896,27 +1967,34 @@ proxy-groups:
       - 🇩🇪 德国 136 - undefinedms
       - 🇩🇪 德国 137 - undefinedms
       - 🇩🇪 德国 138 - undefinedms
-      - 🇭🇰 香港 139 - undefinedms
-      - 🇲🇾 马来西亚 161 - undefinedms
-      - 🇮🇩 印度尼西亚 162 - undefinedms
-      - 🇩🇪 德国 163 - undefinedms
-      - 🇯🇵 日本 164 - undefinedms
-      - 🇮🇩 印度尼西亚 165 - undefinedms
-      - 🇯🇵 日本 166 - undefinedms
-      - 🇭🇰 香港 167 - undefinedms
-      - 🇭🇰 香港 168 - undefinedms
-      - 🇮🇩 印度尼西亚 169 - undefinedms
-      - 🇩🇪 德国 170 - undefinedms
-      - 🇮🇩 印度尼西亚 171 - undefinedms
-      - 🇩🇪 德国 172 - undefinedms
-      - 🇩🇪 德国 173 - undefinedms
-      - 🇩🇪 德国 174 - undefinedms
-      - 🇩🇪 德国 175 - undefinedms
-      - 🇭🇰 香港 176 - undefinedms
-      - 🇭🇰 香港 179 - undefinedms
-      - 🇫🇷 法国 183 - undefinedms
-      - 🇫🇷 法国 184 - undefinedms
-      - 🇯🇵 日本 190 - undefinedms
+      - 🇩🇪 德国 139 - undefinedms
+      - 🇩🇪 德国 140 - undefinedms
+      - 🇩🇪 德国 141 - undefinedms
+      - 🇩🇪 德国 142 - undefinedms
+      - 🇩🇪 德国 143 - undefinedms
+      - 🇩🇪 德国 144 - undefinedms
+      - 🇩🇪 德国 145 - undefinedms
+      - 🇩🇪 德国 146 - undefinedms
+      - 🇩🇪 德国 147 - undefinedms
+      - 🇩🇪 德国 148 - undefinedms
+      - 🇩🇪 德国 149 - undefinedms
+      - 🇩🇪 德国 150 - undefinedms
+      - 🇩🇪 德国 151 - undefinedms
+      - 🇩🇪 德国 152 - undefinedms
+      - 🇩🇪 德国 153 - undefinedms
+      - 🇩🇪 德国 154 - undefinedms
+      - 🇩🇪 德国 155 - undefinedms
+      - 🇩🇪 德国 159 - undefinedms
+      - 🇭🇰 香港 163 - undefinedms
+      - 🇩🇪 德国 164 - undefinedms
+      - 🇩🇪 德国 165 - undefinedms
+      - 🇩🇪 德国 166 - undefinedms
+      - 🇲🇾 马来西亚 167 - undefinedms
+      - 🇯🇵 日本 192 - undefinedms
+      - 🇭🇰 香港 194 - undefinedms
+      - 🇭🇰 香港 254 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -1928,8 +2006,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1961,22 +2037,28 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - US VMESS-136 | free-nodes - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
+      - US VMESS-131 | free-nodes - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 电报群：https://t.me/vvkj11 - undefinedms
+      - 日期：05-17 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
-      - 🇩🇪 德国 6 - undefinedms
-      - 🇩🇪 德国 20 - undefinedms
+      - 🇲🇾 马来西亚 5 - undefinedms
+      - 🇲🇾 马来西亚 6 - undefinedms
+      - 🇲🇾 马来西亚 7 - undefinedms
+      - 🇲🇾 马来西亚 8 - undefinedms
+      - 🇯🇵 日本 9 - undefinedms
+      - 🇭🇰 香港 10 - undefinedms
+      - 🇩🇪 德国 21 - undefinedms
       - 🇩🇪 德国 22 - undefinedms
-      - 🇩🇪 德国 23 - undefinedms
+      - 🇩🇪 德国 24 - undefinedms
       - 🇩🇪 德国 25 - undefinedms
       - 🇩🇪 德国 26 - undefinedms
       - 🇩🇪 德国 27 - undefinedms
       - 🇩🇪 德国 28 - undefinedms
-      - 🇩🇪 德国 29 - undefinedms
+      - 🇩🇪 德国 30 - undefinedms
       - 🇩🇪 德国 31 - undefinedms
       - 🇩🇪 德国 32 - undefinedms
       - 🇩🇪 德国 33 - undefinedms
@@ -1996,7 +2078,6 @@ proxy-groups:
       - 🇩🇪 德国 47 - undefinedms
       - 🇩🇪 德国 48 - undefinedms
       - 🇩🇪 德国 49 - undefinedms
-      - 🇩🇪 德国 50 - undefinedms
       - 🇩🇪 德国 51 - undefinedms
       - 🇩🇪 德国 52 - undefinedms
       - 🇩🇪 德国 53 - undefinedms
@@ -2025,19 +2106,20 @@ proxy-groups:
       - 🇩🇪 德国 76 - undefinedms
       - 🇩🇪 德国 77 - undefinedms
       - 🇩🇪 德国 78 - undefinedms
-      - 🇩🇪 德国 79 - undefinedms
       - 🇩🇪 德国 80 - undefinedms
       - 🇩🇪 德国 81 - undefinedms
       - 🇩🇪 德国 82 - undefinedms
-      - 🇩🇪 德国 83 - undefinedms
       - 🇩🇪 德国 84 - undefinedms
-      - 🇭🇰 香港 85 - undefinedms
+      - 🇩🇪 德国 85 - undefinedms
       - 🇩🇪 德国 86 - undefinedms
       - 🇩🇪 德国 87 - undefinedms
       - 🇩🇪 德国 88 - undefinedms
       - 🇩🇪 德国 89 - undefinedms
       - 🇩🇪 德国 90 - undefinedms
       - 🇩🇪 德国 91 - undefinedms
+      - 🇩🇪 德国 92 - undefinedms
+      - 🇩🇪 德国 93 - undefinedms
+      - 🇩🇪 德国 94 - undefinedms
       - 🇩🇪 德国 95 - undefinedms
       - 🇩🇪 德国 96 - undefinedms
       - 🇩🇪 德国 97 - undefinedms
@@ -2050,10 +2132,9 @@ proxy-groups:
       - 🇩🇪 德国 104 - undefinedms
       - 🇩🇪 德国 105 - undefinedms
       - 🇩🇪 德国 106 - undefinedms
-      - 🇩🇪 德国 107 - undefinedms
-      - 🇩🇪 德国 108 - undefinedms
-      - 🇩🇪 德国 109 - undefinedms
-      - 🇩🇪 德国 110 - undefinedms
+      - 🇭🇰 香港 108 - undefinedms
+      - 🇭🇰 香港 109 - undefinedms
+      - 🇭🇰 香港 110 - undefinedms
       - 🇩🇪 德国 111 - undefinedms
       - 🇩🇪 德国 112 - undefinedms
       - 🇩🇪 德国 113 - undefinedms
@@ -2061,13 +2142,11 @@ proxy-groups:
       - 🇩🇪 德国 115 - undefinedms
       - 🇩🇪 德国 116 - undefinedms
       - 🇩🇪 德国 117 - undefinedms
-      - 🇩🇪 德国 118 - undefinedms
-      - 🇩🇪 德国 119 - undefinedms
-      - 🇩🇪 德国 120 - undefinedms
-      - 🇩🇪 德国 121 - undefinedms
+      - 🇭🇰 香港 121 - undefinedms
       - 🇭🇰 香港 122 - undefinedms
-      - 🇯🇵 日本 123 - undefinedms
-      - 🇩🇪 德国 124 - undefinedms
+      - 🇯🇵 日本 125 - undefinedms
+      - 🇩🇪 德国 126 - undefinedms
+      - 🇩🇪 德国 127 - undefinedms
       - 🇩🇪 德国 128 - undefinedms
       - 🇩🇪 德国 129 - undefinedms
       - 🇩🇪 德国 130 - undefinedms
@@ -2079,27 +2158,34 @@ proxy-groups:
       - 🇩🇪 德国 136 - undefinedms
       - 🇩🇪 德国 137 - undefinedms
       - 🇩🇪 德国 138 - undefinedms
-      - 🇭🇰 香港 139 - undefinedms
-      - 🇲🇾 马来西亚 161 - undefinedms
-      - 🇮🇩 印度尼西亚 162 - undefinedms
-      - 🇩🇪 德国 163 - undefinedms
-      - 🇯🇵 日本 164 - undefinedms
-      - 🇮🇩 印度尼西亚 165 - undefinedms
-      - 🇯🇵 日本 166 - undefinedms
-      - 🇭🇰 香港 167 - undefinedms
-      - 🇭🇰 香港 168 - undefinedms
-      - 🇮🇩 印度尼西亚 169 - undefinedms
-      - 🇩🇪 德国 170 - undefinedms
-      - 🇮🇩 印度尼西亚 171 - undefinedms
-      - 🇩🇪 德国 172 - undefinedms
-      - 🇩🇪 德国 173 - undefinedms
-      - 🇩🇪 德国 174 - undefinedms
-      - 🇩🇪 德国 175 - undefinedms
-      - 🇭🇰 香港 176 - undefinedms
-      - 🇭🇰 香港 179 - undefinedms
-      - 🇫🇷 法国 183 - undefinedms
-      - 🇫🇷 法国 184 - undefinedms
-      - 🇯🇵 日本 190 - undefinedms
+      - 🇩🇪 德国 139 - undefinedms
+      - 🇩🇪 德国 140 - undefinedms
+      - 🇩🇪 德国 141 - undefinedms
+      - 🇩🇪 德国 142 - undefinedms
+      - 🇩🇪 德国 143 - undefinedms
+      - 🇩🇪 德国 144 - undefinedms
+      - 🇩🇪 德国 145 - undefinedms
+      - 🇩🇪 德国 146 - undefinedms
+      - 🇩🇪 德国 147 - undefinedms
+      - 🇩🇪 德国 148 - undefinedms
+      - 🇩🇪 德国 149 - undefinedms
+      - 🇩🇪 德国 150 - undefinedms
+      - 🇩🇪 德国 151 - undefinedms
+      - 🇩🇪 德国 152 - undefinedms
+      - 🇩🇪 德国 153 - undefinedms
+      - 🇩🇪 德国 154 - undefinedms
+      - 🇩🇪 德国 155 - undefinedms
+      - 🇩🇪 德国 159 - undefinedms
+      - 🇭🇰 香港 163 - undefinedms
+      - 🇩🇪 德国 164 - undefinedms
+      - 🇩🇪 德国 165 - undefinedms
+      - 🇩🇪 德国 166 - undefinedms
+      - 🇲🇾 马来西亚 167 - undefinedms
+      - 🇯🇵 日本 192 - undefinedms
+      - 🇭🇰 香港 194 - undefinedms
+      - 🇭🇰 香港 254 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2111,8 +2197,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
