@@ -44,15 +44,37 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇺🇸US_1|3.8MB/s - undefinedms
+  - name: 德国 法尔肯施泰因HETZNER - undefinedms
     type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: me.echo-license.gr
+    port: 14991
+    uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇫🇷FR_2|1.9MB/s - undefinedms
+    type: vmess
+    server: d1.trapxan.ir
+    port: 50000
+    uuid: 294517f3-11cf-4add-8c82-e7d498e4139e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_4|3.3MB/s - undefinedms
+    type: vmess
+    server: 143.198.235.98
+    port: 30080
+    uuid: d76c0edb-8097-4371-8d97-722723756012
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /vm
+      headers:
+        Host: 143.198.235.98
   - name: 🇰🇷_韩国_24 - undefinedms
     type: vmess
     server: 217.142.138.61
@@ -1026,7 +1048,9 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_1|3.8MB/s - undefinedms
+      - 德国 法尔肯施泰因HETZNER - undefinedms
+      - 🇫🇷FR_2|1.9MB/s - undefinedms
+      - 🇺🇸US_4|3.3MB/s - undefinedms
       - 🇰🇷_韩国_24 - undefinedms
       - 🇩🇪_德国_32 - undefinedms
       - 🇩🇪_德国_33 - undefinedms
@@ -1126,7 +1150,9 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_1|3.8MB/s - undefinedms
+      - 德国 法尔肯施泰因HETZNER - undefinedms
+      - 🇫🇷FR_2|1.9MB/s - undefinedms
+      - 🇺🇸US_4|3.3MB/s - undefinedms
       - 🇰🇷_韩国_24 - undefinedms
       - 🇩🇪_德国_32 - undefinedms
       - 🇩🇪_德国_33 - undefinedms
