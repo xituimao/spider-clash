@@ -18,15 +18,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 德国 法尔肯施泰因HETZNER - undefinedms
-    type: vmess
-    server: me.echo-license.gr
-    port: 14991
-    uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -53,34 +44,16 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇨🇳_中国_14 - undefinedms
+  - name: 🇭🇰_香港_8 - undefinedms
     type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_16 - undefinedms
-    type: vmess
-    server: 47.76.127.88
-    port: 5566
-    uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+    server: 45.158.23.138
+    port: 27272
+    uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰_香港_18 - undefinedms
-    type: vmess
-    server: 47.83.221.185
-    port: 80
-    uuid: 771a590c-5eac-5732-b796-17251132f8d2
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_美国_20 - undefinedms
+  - name: 🇺🇸_美国_9 - undefinedms
     type: vmess
     server: guanwang.awsno.com
     port: 443
@@ -89,93 +62,28 @@ proxies:
     cipher: auto
     tls: true
     network: tcp
-  - name: 🇲🇴_澳门_59 - undefinedms
+  - name: 🇭🇰_香港_11 - undefinedms
     type: vmess
-    server: 45.207.35.102
-    port: 26711
-    uuid: e92b8574-c76c-49e0-ac30-1ee35814428d
+    server: 47.76.127.88
+    port: 5566
+    uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
     alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 45.207.35.102
-  - name: 🇺🇸_美国_88 - undefinedms
-    type: vmess
-    server: 23.236.69.39
-    port: 24187
-    uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 23.236.69.39
-  - name: 🇲🇴_澳门_92 - undefinedms
-    type: vmess
-    server: 45.207.35.102
-    port: 34080
-    uuid: a727244e-41d4-4ae8-b307-44595b9d723d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /arki
-      headers:
-        Host: 45.207.35.102
-  - name: 🇯🇵_日本_98 - undefinedms
-    type: vmess
-    server: as.dcsaw.rfgh.dsfdsgrrey.boutique
-    port: 21949
-    uuid: a4040c61-d8a8-4ded-8c07-98aabafcdcac
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: tms.dingtalk.com
-  - name: 🇭🇰_香港_99 - undefinedms
-    type: vmess
-    server: n1747624260.4u9ma.icu
-    port: 443
-    uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1747624260.4u9ma.icu
-  - name: 🇭🇰_香港_100 - undefinedms
-    type: vmess
-    server: n1747624274.4u9ma.icu
-    port: 443
-    uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1747624274.4u9ma.icu
-  - name: 🇺🇸US_8|2.1MB/s - undefinedms
-    type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇸🇬_新加坡_379 - undefinedms
+    type: vmess
+    server: 170.187.229.90
+    port: 80
+    uuid: 6683996b-d84a-4a40-a0d3-b42a92bb3313
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /images
+      headers:
+        Host: shoutingtoutiao3.10010.com
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 82.198.246.214
@@ -730,20 +638,12 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 德国 法尔肯施泰因HETZNER - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇨🇳_中国_14 - undefinedms
-      - 🇭🇰_香港_16 - undefinedms
-      - 🇭🇰_香港_18 - undefinedms
-      - 🇺🇸_美国_20 - undefinedms
-      - 🇲🇴_澳门_59 - undefinedms
-      - 🇺🇸_美国_88 - undefinedms
-      - 🇲🇴_澳门_92 - undefinedms
-      - 🇯🇵_日本_98 - undefinedms
-      - 🇭🇰_香港_99 - undefinedms
-      - 🇭🇰_香港_100 - undefinedms
-      - 🇺🇸US_8|2.1MB/s - undefinedms
+      - 🇭🇰_香港_8 - undefinedms
+      - 🇺🇸_美国_9 - undefinedms
+      - 🇭🇰_香港_11 - undefinedms
+      - 🇸🇬_新加坡_379 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
@@ -796,20 +696,12 @@ proxy-groups:
     proxies:
       - Auto Select
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 德国 法尔肯施泰因HETZNER - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇨🇳_中国_14 - undefinedms
-      - 🇭🇰_香港_16 - undefinedms
-      - 🇭🇰_香港_18 - undefinedms
-      - 🇺🇸_美国_20 - undefinedms
-      - 🇲🇴_澳门_59 - undefinedms
-      - 🇺🇸_美国_88 - undefinedms
-      - 🇲🇴_澳门_92 - undefinedms
-      - 🇯🇵_日本_98 - undefinedms
-      - 🇭🇰_香港_99 - undefinedms
-      - 🇭🇰_香港_100 - undefinedms
-      - 🇺🇸US_8|2.1MB/s - undefinedms
+      - 🇭🇰_香港_8 - undefinedms
+      - 🇺🇸_美国_9 - undefinedms
+      - 🇭🇰_香港_11 - undefinedms
+      - 🇸🇬_新加坡_379 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
