@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 拉脱维亚 V2CROSS.COM - undefinedms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16632
-    uuid: 62319519-82bc-46ff-99cd-237bd0882cef
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -136,104 +123,19 @@ proxies:
       path: /
       headers:
         Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+  - name: 🇯🇵JP_2|3.9MB/s - undefinedms
     type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: n1747624260.4u9ma.icu
-    port: 443
-    uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+    server: p4.cnb.linuxlh.xin
+    port: 16617
+    uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     network: ws
     ws-opts:
       path: /
       headers:
-        Host: n1747624260.4u9ma.icu
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: tcp
-  - name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefinedms
-    type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 47.244.120.197
-    port: 44867
-    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /arki?ed=2048
-      headers:
-        Host: 47.244.120.197
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇯🇵_JP_日本->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: v24.hdacd.com
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国 - undefinedms
-    type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 47.76.127.88
-    port: 5566
-    uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+        Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -702,11 +604,108 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: n1747624260.4u9ma.icu
+    port: 443
+    uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: n1747624260.4u9ma.icu
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: guanwang.awsno.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefinedms
+    type: vmess
+    server: v45.hdacd.com
+    port: 30845
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 47.244.120.197
+    port: 44867
+    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /arki?ed=2048
+      headers:
+        Host: 47.244.120.197
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵_JP_日本->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: v24.hdacd.com
+    port: 30824
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国 - undefinedms
+    type: vmess
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 47.76.127.88
+    port: 5566
+    uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 拉脱维亚 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
@@ -717,16 +716,7 @@ proxy-groups:
       - 🇫🇷_法国_67 - undefinedms
       - 🇫🇷_法国_68 - undefinedms
       - 🇫🇷_法国_294 - undefinedms
-      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-      - 🇯🇵_JP_日本->🇺🇸_US_美国 - undefinedms
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇯🇵JP_2|3.9MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -763,13 +753,22 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 - undefinedms
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - 拉脱维亚 V2CROSS.COM - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
@@ -780,16 +779,7 @@ proxy-groups:
       - 🇫🇷_法国_67 - undefinedms
       - 🇫🇷_法国_68 - undefinedms
       - 🇫🇷_法国_294 - undefinedms
-      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
-      - 🇯🇵_JP_日本->🇺🇸_US_美国 - undefinedms
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇯🇵JP_2|3.9MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -826,5 +816,15 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+      - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
+      - 🇯🇵_JP_日本->🇺🇸_US_美国 - undefinedms
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
 rules:
   - MATCH,Proxy
