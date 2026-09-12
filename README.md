@@ -1,3 +1,5 @@
+
+
 # Spider Clash 🕸️
 
 一个轻量级的 Node.js 爬虫，用于抓取、验证和生成 Clash/V2Ray 订阅链接。
@@ -17,7 +19,7 @@
 点击右上角的 **Fork** 按钮，将项目复制到你的账号下。
 
 ### 2. 配置订阅源
-修改 `src/config.js` 文件，填入你的订阅源 URL：
+修改 `src/config.js` 文件，填入你的订阅源或网页 URL：
 ```javascript
 export default {
     sources: [
