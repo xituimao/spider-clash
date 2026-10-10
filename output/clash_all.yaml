@@ -44,24 +44,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷FR_2|1.6MB/s - undefinedms
+  - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: fertest3.povrak.ir
-    port: 55277
-    uuid: 5551d2e8-d3d4-42d2-95c8-fb780b4f6e6d
+    server: cdn.sfacg.uk
+    port: 2083
+    uuid: ac251237-576f-40c8-a543-554960c958b1
     alterId: 0
     cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇫🇮FI_2|1.8MB/s - undefinedms
-    type: vmess
-    server: fertest2.povrak.ir
-    port: 37483
-    uuid: 5551d2e8-d3d4-42d2-95c8-fb780b4f6e6d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+    tls: true
+    network: ws
+    ws-opts:
+      path: /or3
+      headers:
+        Host: or3.sfacg.uk
   - name: 🇨🇳_CN_中国 - undefinedms
     type: vmess
     server: 112.132.215.108
@@ -555,8 +550,7 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷FR_2|1.6MB/s - undefinedms
-      - 🇫🇮FI_2|1.8MB/s - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
@@ -604,8 +598,7 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷FR_2|1.6MB/s - undefinedms
-      - 🇫🇮FI_2|1.8MB/s - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
