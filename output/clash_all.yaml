@@ -33,17 +33,17 @@ proxies:
         Host: 109.104.152.220
   - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: cf.0sm.com
+    server: www.gptcloudai.com
     port: 443
-    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+    uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /ws?ed=2048
+      path: /truth
       headers:
-        Host: vmess.lbw666.dpdns.org
+        Host: www.gptcloudai.com
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -57,102 +57,78 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇨🇿_捷克 - undefinedms
+  - name: 免费VPN：tt.vg/FJOE2Mm - undefinedms
     type: vmess
-    server: 95.85.233.138
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    server: 129.146.143.80
+    port: 48111
+    uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国 (21) - undefinedms
+    tls: false
+    network: tcp
+  - name: 🇸🇬_新加坡 - undefinedms
     type: vmess
-    server: 13.140.28.46
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    server: 129.226.157.220
+    port: 59121
+    uuid: d9865d63-d95c-454b-ba07-8e88b838a801
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国 (22) - undefinedms
+    tls: false
+    network: tcp
+  - name: 🇰🇷_韩国 - undefinedms
     type: vmess
-    server: 85.215.41.19
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    server: 132.145.80.230
+    port: 80
+    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     network: ws
     ws-opts:
-      path: /api/v1/gpu-stream/socket
+      path: /cctv13.m3u8
       headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国 (23) - undefinedms
+        Host: 132.145.80.230
+  - name: 🇨🇦_加拿大 - undefinedms
     type: vmess
-    server: 111.88.74.167
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    server: 134.195.196.211
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国 (24) - undefinedms
+    tls: false
+    network: tcp
+  - name: 🇰🇷_韩国 (2) - undefinedms
     type: vmess
-    server: 89.127.218.61
+    server: 140.238.2.250
     port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    uuid: 41a7089a-040b-4538-8b8d-010902405bde
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国 (25) - undefinedms
+    tls: false
+    network: tcp
+  - name: 🇸🇬_新加坡 (5) - undefinedms
     type: vmess
-    server: 31.77.223.21
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    server: 149.88.23.202
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇫🇮_芬兰 (3) - undefinedms
+    tls: false
+    network: tcp
+  - name: 🇸🇬_新加坡 (6) - undefinedms
     type: vmess
-    server: 95.81.126.119
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    server: 149.88.23.207
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇫🇷_法国 (3) - undefinedms
+    tls: false
+    network: tcp
+  - name: 🇮🇳_印度 - undefinedms
     type: vmess
-    server: planb.mojcn.com
-    port: 16618
-    uuid: 58e6d85e-d762-43d3-a0b7-a98096d6f3ac
+    server: 152.67.8.205
+    port: 80
+    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
     alterId: 0
     cipher: auto
     tls: false
@@ -160,8 +136,109 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: a31e0690cf16385904bbd1c6ad52a468.mobgslb.tbcache.com
-  - name: 🇮🇳_印度 - undefinedms
+        Host: 152.67.8.205
+  - name: 🇭🇰_香港 - undefinedms
+    type: vmess
+    server: 154.37.223.56
+    port: 52080
+    uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_香港 (2) - undefinedms
+    type: vmess
+    server: 156.245.232.239
+    port: 35043
+    uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 156.245.232.239
+  - name: 🇷🇺_俄罗斯 (2) - undefinedms
+    type: vmess
+    server: 158.160.180.165
+    port: 24212
+    uuid: c58c1205-b308-416f-8503-c04557abf93d
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 🇺🇸_美国 (13) - undefinedms
+    type: vmess
+    server: 162.159.130.234
+    port: 2083
+    uuid: ac251237-576f-40c8-a543-554960c958b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /or3
+      headers:
+        Host: or3.sfacg.uk
+  - name: 🇺🇸_美国 (14) - undefinedms
+    type: vmess
+    server: 162.159.135.234
+    port: 2083
+    uuid: ac251237-576f-40c8-a543-554960c958b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /or3
+      headers:
+        Host: or3.sfacg.uk
+  - name: 🇯🇵_日本 (3) - undefinedms
+    type: vmess
+    server: 168.138.43.75
+    port: 80
+    uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /cctv13.m3u8
+      headers:
+        Host: 168.138.43.75
+  - name: 🇺🇸_美国 (17) - undefinedms
+    type: vmess
+    server: 169.197.142.22
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵_日本 (4) - undefinedms
+    type: vmess
+    server: 172.111.146.64
+    port: 80
+    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /vmess/
+      headers:
+        Host: 172.111.146.64
+  - name: 🇩🇪_德国 (17) - undefinedms
+    type: vmess
+    server: 178.105.168.171
+    port: 2110
+    uuid: 06d4d001-4168-4876-9416-7caecf578f40
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇳_印度 (2) - undefinedms
     type: vmess
     server: 20.235.220.189
     port: 443
@@ -174,93 +251,171 @@ proxies:
       path: /ws-vmess
       headers:
         Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: 🇳🇱_荷兰 (24) - undefinedms
+  - name: 🇰🇷_韩国 (3) - undefinedms
     type: vmess
-    server: 64.188.97.153
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇳🇱_荷兰 (25) - undefinedms
-    type: vmess
-    server: 78.17.71.236
-    port: 33736
-    uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /vmess-ws
-      headers:
-        Host: Telegram-Leviko_v2ray
-  - name: 🇷🇺_俄罗斯 (35) - undefinedms
-    type: vmess
-    server: 5.188.26.85
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇷🇺_俄罗斯 (36) - undefinedms
-    type: vmess
-    server: 80.240.252.241
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇺🇸_美国 (17) - undefinedms
-    type: vmess
-    server: 165.140.217.2
-    port: 443
-    uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+    server: 217.142.138.61
+    port: 80
+    uuid: ac1b933d-afff-4487-93ef-f57130a55dff
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸_美国 (40) - undefinedms
+  - name: 🇺🇸_美国 (39) - undefinedms
     type: vmess
-    server: 2.27.16.177
+    server: 23.158.72.131
+    port: 80
+    uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 23.158.72.131
+  - name: 🇨🇦_加拿大 (2) - undefinedms
+    type: vmess
+    server: 23.162.200.198
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国 (42) - undefinedms
+    type: vmess
+    server: 38.110.1.246
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国 (43) - undefinedms
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国 (44) - undefinedms
+    type: vmess
+    server: 43.130.35.53
+    port: 10087
+    uuid: 8e93b009-f1af-448a-b8ef-b110849a35f0
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪_德国 (20) - undefinedms
+    type: vmess
+    server: 45.131.153.149
     port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+    uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
     alterId: 0
     cipher: auto
     tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇻🇬_英属维尔京群岛 - undefinedms
+    network: tcp
+  - name: 🇺🇸_美国 (61) - undefinedms
     type: vmess
-    server: www.nextkyc.com
-    port: 8443
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+    server: 67.220.85.46
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国 (62) - undefinedms
+    type: vmess
+    server: 67.220.95.3
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国 (64) - undefinedms
+    type: vmess
+    server: 84.17.41.2
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪_德国 (25) - undefinedms
+    type: vmess
+    server: 91.107.128.44
+    port: 36812
+    uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇩🇪_德国 (27) - undefinedms
+    type: vmess
+    server: 91.107.128.44
+    port: 24701
+    uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国 (66) - undefinedms
+    type: vmess
+    server: cdn.sfacg.uk
+    port: 2083
+    uuid: ac251237-576f-40c8-a543-554960c958b1
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /lMnsZUN4/
+      path: /or3
       headers:
-        Host: v2ray1.dozapp.xyz
+        Host: or3.sfacg.uk
+  - name: 🇩🇪_德国 (33) - undefinedms
+    type: vmess
+    server: de.zhou-yufan.com
+    port: 443
+    uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 🇩🇪_德国 (35) - undefinedms
+    type: vmess
+    server: lucas.ehsanazizi-speed-server.com
+    port: 2110
+    uuid: 06d4d001-4168-4876-9416-7caecf578f40
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国 (81) - undefinedms
+    type: vmess
+    server: us-23.hihu.net
+    port: 80
+    uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /870ao26f
+      headers:
+        Host: us-23.hihu.net
+  - name: 🇸🇬_新加坡 (16) - undefinedms
+    type: vmess
+    server: ww11.levikogjgfdd.ir
+    port: 18000
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇹🇼_TW_中国台湾 - undefinedms
     type: vmess
     server: 654168416355441.oylfmxz.cn
@@ -426,331 +581,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇺🇸_US_美国_1 - undefinedms
-    type: vmess
-    server: 104.18.114.188
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_2 - undefinedms
-    type: vmess
-    server: 104.18.114.33
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_3 - undefinedms
-    type: vmess
-    server: 104.18.114.69
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 194.36.55.4
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_4 - undefinedms
-    type: vmess
-    server: 104.18.114.118
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_5 - undefinedms
-    type: vmess
-    server: 162.159.45.165
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_6 - undefinedms
-    type: vmess
-    server: 104.18.114.162
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 146.19.21.61
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_8 - undefinedms
-    type: vmess
-    server: 104.26.0.87
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_9 - undefinedms
-    type: vmess
-    server: 104.21.238.37
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_10 - undefinedms
-    type: vmess
-    server: 104.26.0.239
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_11 - undefinedms
-    type: vmess
-    server: 104.18.114.125
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_12 - undefinedms
-    type: vmess
-    server: 104.21.238.148
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_13 - undefinedms
-    type: vmess
-    server: 104.18.114.183
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 190.93.244.1
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_14 - undefinedms
-    type: vmess
-    server: 104.18.114.107
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_15 - undefinedms
-    type: vmess
-    server: 104.26.0.183
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_16 - undefinedms
-    type: vmess
-    server: 104.18.114.56
-    port: 8880
-    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: m1.106778.xyz
-  - name: 🇺🇸_US_美国_17 - undefinedms
-    type: vmess
-    server: 104.26.0.71
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_18 - undefinedms
-    type: vmess
-    server: 104.18.114.58
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_19 - undefinedms
-    type: vmess
-    server: 104.18.114.122
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_20 - undefinedms
-    type: vmess
-    server: 104.18.114.108
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.159.219.89
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_21 - undefinedms
-    type: vmess
-    server: 104.21.238.182
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_22 - undefinedms
-    type: vmess
-    server: 104.18.114.111
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -759,22 +589,41 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇨🇿_捷克 - undefinedms
-      - 🇩🇪_德国 (21) - undefinedms
-      - 🇩🇪_德国 (22) - undefinedms
-      - 🇩🇪_德国 (23) - undefinedms
-      - 🇩🇪_德国 (24) - undefinedms
-      - 🇩🇪_德国 (25) - undefinedms
-      - 🇫🇮_芬兰 (3) - undefinedms
-      - 🇫🇷_法国 (3) - undefinedms
+      - 免费VPN：tt.vg/FJOE2Mm - undefinedms
+      - 🇸🇬_新加坡 - undefinedms
+      - 🇰🇷_韩国 - undefinedms
+      - 🇨🇦_加拿大 - undefinedms
+      - 🇰🇷_韩国 (2) - undefinedms
+      - 🇸🇬_新加坡 (5) - undefinedms
+      - 🇸🇬_新加坡 (6) - undefinedms
       - 🇮🇳_印度 - undefinedms
-      - 🇳🇱_荷兰 (24) - undefinedms
-      - 🇳🇱_荷兰 (25) - undefinedms
-      - 🇷🇺_俄罗斯 (35) - undefinedms
-      - 🇷🇺_俄罗斯 (36) - undefinedms
+      - 🇭🇰_香港 - undefinedms
+      - 🇭🇰_香港 (2) - undefinedms
+      - 🇷🇺_俄罗斯 (2) - undefinedms
+      - 🇺🇸_美国 (13) - undefinedms
+      - 🇺🇸_美国 (14) - undefinedms
+      - 🇯🇵_日本 (3) - undefinedms
       - 🇺🇸_美国 (17) - undefinedms
-      - 🇺🇸_美国 (40) - undefinedms
-      - 🇻🇬_英属维尔京群岛 - undefinedms
+      - 🇯🇵_日本 (4) - undefinedms
+      - 🇩🇪_德国 (17) - undefinedms
+      - 🇮🇳_印度 (2) - undefinedms
+      - 🇰🇷_韩国 (3) - undefinedms
+      - 🇺🇸_美国 (39) - undefinedms
+      - 🇨🇦_加拿大 (2) - undefinedms
+      - 🇺🇸_美国 (42) - undefinedms
+      - 🇺🇸_美国 (43) - undefinedms
+      - 🇺🇸_美国 (44) - undefinedms
+      - 🇩🇪_德国 (20) - undefinedms
+      - 🇺🇸_美国 (61) - undefinedms
+      - 🇺🇸_美国 (62) - undefinedms
+      - 🇺🇸_美国 (64) - undefinedms
+      - 🇩🇪_德国 (25) - undefinedms
+      - 🇩🇪_德国 (27) - undefinedms
+      - 🇺🇸_美国 (66) - undefinedms
+      - 🇩🇪_德国 (33) - undefinedms
+      - 🇩🇪_德国 (35) - undefinedms
+      - 🇺🇸_美国 (81) - undefinedms
+      - 🇸🇬_新加坡 (16) - undefinedms
       - 🇹🇼_TW_中国台湾 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
@@ -788,31 +637,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇺🇸_US_美国_1 - undefinedms
-      - 🇺🇸_US_美国_2 - undefinedms
-      - 🇺🇸_US_美国_3 - undefinedms
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸_US_美国_4 - undefinedms
-      - 🇺🇸_US_美国_5 - undefinedms
-      - 🇺🇸_US_美国_6 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸_US_美国_8 - undefinedms
-      - 🇺🇸_US_美国_9 - undefinedms
-      - 🇺🇸_US_美国_10 - undefinedms
-      - 🇺🇸_US_美国_11 - undefinedms
-      - 🇺🇸_US_美国_12 - undefinedms
-      - 🇺🇸_US_美国_13 - undefinedms
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸_US_美国_14 - undefinedms
-      - 🇺🇸_US_美国_15 - undefinedms
-      - 🇺🇸_US_美国_16 - undefinedms
-      - 🇺🇸_US_美国_17 - undefinedms
-      - 🇺🇸_US_美国_18 - undefinedms
-      - 🇺🇸_US_美国_19 - undefinedms
-      - 🇺🇸_US_美国_20 - undefinedms
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸_US_美国_21 - undefinedms
-      - 🇺🇸_US_美国_22 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -823,22 +647,41 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇨🇿_捷克 - undefinedms
-      - 🇩🇪_德国 (21) - undefinedms
-      - 🇩🇪_德国 (22) - undefinedms
-      - 🇩🇪_德国 (23) - undefinedms
-      - 🇩🇪_德国 (24) - undefinedms
-      - 🇩🇪_德国 (25) - undefinedms
-      - 🇫🇮_芬兰 (3) - undefinedms
-      - 🇫🇷_法国 (3) - undefinedms
+      - 免费VPN：tt.vg/FJOE2Mm - undefinedms
+      - 🇸🇬_新加坡 - undefinedms
+      - 🇰🇷_韩国 - undefinedms
+      - 🇨🇦_加拿大 - undefinedms
+      - 🇰🇷_韩国 (2) - undefinedms
+      - 🇸🇬_新加坡 (5) - undefinedms
+      - 🇸🇬_新加坡 (6) - undefinedms
       - 🇮🇳_印度 - undefinedms
-      - 🇳🇱_荷兰 (24) - undefinedms
-      - 🇳🇱_荷兰 (25) - undefinedms
-      - 🇷🇺_俄罗斯 (35) - undefinedms
-      - 🇷🇺_俄罗斯 (36) - undefinedms
+      - 🇭🇰_香港 - undefinedms
+      - 🇭🇰_香港 (2) - undefinedms
+      - 🇷🇺_俄罗斯 (2) - undefinedms
+      - 🇺🇸_美国 (13) - undefinedms
+      - 🇺🇸_美国 (14) - undefinedms
+      - 🇯🇵_日本 (3) - undefinedms
       - 🇺🇸_美国 (17) - undefinedms
-      - 🇺🇸_美国 (40) - undefinedms
-      - 🇻🇬_英属维尔京群岛 - undefinedms
+      - 🇯🇵_日本 (4) - undefinedms
+      - 🇩🇪_德国 (17) - undefinedms
+      - 🇮🇳_印度 (2) - undefinedms
+      - 🇰🇷_韩国 (3) - undefinedms
+      - 🇺🇸_美国 (39) - undefinedms
+      - 🇨🇦_加拿大 (2) - undefinedms
+      - 🇺🇸_美国 (42) - undefinedms
+      - 🇺🇸_美国 (43) - undefinedms
+      - 🇺🇸_美国 (44) - undefinedms
+      - 🇩🇪_德国 (20) - undefinedms
+      - 🇺🇸_美国 (61) - undefinedms
+      - 🇺🇸_美国 (62) - undefinedms
+      - 🇺🇸_美国 (64) - undefinedms
+      - 🇩🇪_德国 (25) - undefinedms
+      - 🇩🇪_德国 (27) - undefinedms
+      - 🇺🇸_美国 (66) - undefinedms
+      - 🇩🇪_德国 (33) - undefinedms
+      - 🇩🇪_德国 (35) - undefinedms
+      - 🇺🇸_美国 (81) - undefinedms
+      - 🇸🇬_新加坡 (16) - undefinedms
       - 🇹🇼_TW_中国台湾 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
@@ -852,30 +695,5 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇺🇸_US_美国_1 - undefinedms
-      - 🇺🇸_US_美国_2 - undefinedms
-      - 🇺🇸_US_美国_3 - undefinedms
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸_US_美国_4 - undefinedms
-      - 🇺🇸_US_美国_5 - undefinedms
-      - 🇺🇸_US_美国_6 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸_US_美国_8 - undefinedms
-      - 🇺🇸_US_美国_9 - undefinedms
-      - 🇺🇸_US_美国_10 - undefinedms
-      - 🇺🇸_US_美国_11 - undefinedms
-      - 🇺🇸_US_美国_12 - undefinedms
-      - 🇺🇸_US_美国_13 - undefinedms
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸_US_美国_14 - undefinedms
-      - 🇺🇸_US_美国_15 - undefinedms
-      - 🇺🇸_US_美国_16 - undefinedms
-      - 🇺🇸_US_美国_17 - undefinedms
-      - 🇺🇸_US_美国_18 - undefinedms
-      - 🇺🇸_US_美国_19 - undefinedms
-      - 🇺🇸_US_美国_20 - undefinedms
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸_US_美国_21 - undefinedms
-      - 🇺🇸_US_美国_22 - undefinedms
 rules:
   - MATCH,Proxy
