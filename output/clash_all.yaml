@@ -18,19 +18,6 @@ proxies:
       path: /hls/cctv5phd.m3u8
       headers:
         Host: guanwang.awsno.com
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.21.15.251
-    port: 443
-    uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /truth
-      headers:
-        Host: www.windowssearchtools.com
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -84,6 +71,32 @@ proxies:
         /github.com/Alvin9999-newpac/fanqiang?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       headers:
         Host: 2001:bc8:32d7:1a9::3
+  - name: 🇹🇼_台湾 - undefinedms
+    type: vmess
+    server: mdk.mdmekjll.best
+    port: 80
+    uuid: 6E571484-4166-4699-8F58-B34A1823691F
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /game/resources
+      headers:
+        Host: mdk.mdmekjll.best
+  - name: 🇫🇷_法国 (2) - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::3
+    port: 18901
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::3
   - name: 🇫🇷_法国 (3) - undefinedms
     type: vmess
     server: 2001:bc8:32d7:1a9::3
@@ -98,19 +111,6 @@ proxies:
         /github.com/Alvin9999-newpac/fanqiang?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
       headers:
         Host: 2001:bc8:32d7:1a9::3
-  - name: 🇹🇼_台湾 - undefinedms
-    type: vmess
-    server: mdk.mdmekjll.best
-    port: 80
-    uuid: 6E571484-4166-4699-8F58-B34A1823691F
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /game/resources
-      headers:
-        Host: mdk.mdmekjll.best
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -436,6 +436,28 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
+  - name: 🇹🇼_TW_中国台湾 - undefinedms
+    type: vmess
+    server: 654168416355441.oylfmxz.cn
+    port: 443
+    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 654168416355441.oylfmxz.cn
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -579,40 +601,18 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇹🇼_TW_中国台湾 - undefinedms
-    type: vmess
-    server: 654168416355441.oylfmxz.cn
-    port: 443
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 654168416355441.oylfmxz.cn
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - CA VMESS-03 | free-nodes - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 (3) - undefinedms
       - 🇹🇼_台湾 - undefinedms
+      - 🇫🇷_法国 (2) - undefinedms
+      - 🇫🇷_法国 (3) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -638,6 +638,8 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -649,8 +651,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -658,13 +658,13 @@ proxy-groups:
     proxies:
       - Auto Select
       - CA VMESS-03 | free-nodes - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇫🇷_法国 - undefinedms
-      - 🇫🇷_法国 (3) - undefinedms
       - 🇹🇼_台湾 - undefinedms
+      - 🇫🇷_法国 (2) - undefinedms
+      - 🇫🇷_法国 (3) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -690,6 +690,8 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -701,7 +703,5 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
 rules:
   - MATCH,Proxy
