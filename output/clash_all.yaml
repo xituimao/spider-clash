@@ -5,6 +5,32 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: CA VMESS-03 | free-nodes - undefinedms
+    type: vmess
+    server: guanwang.awsno.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: 104.21.15.251
+    port: 443
+    uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /truth
+      headers:
+        Host: www.windowssearchtools.com
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,55 +70,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: CA VMESS-02 | free-nodes - undefinedms
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: 未知 VMESS-14 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-15 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-16 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-17 | free-nodes - undefinedms
-    type: vmess
-    server: 192.0.2.1
-    port: 1
-    uuid: 6c6a0625-ac3f-4bd8-9cc8-0545e4e11409
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇫🇷_法国 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:1a9::3
@@ -459,28 +436,6 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇹🇼_TW_中国台湾 - undefinedms
-    type: vmess
-    server: 654168416355441.oylfmxz.cn
-    port: 443
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 654168416355441.oylfmxz.cn
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -624,18 +579,37 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇹🇼_TW_中国台湾 - undefinedms
+    type: vmess
+    server: 654168416355441.oylfmxz.cn
+    port: 443
+    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 654168416355441.oylfmxz.cn
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - CA VMESS-03 | free-nodes - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - CA VMESS-02 | free-nodes - undefinedms
-      - 未知 VMESS-14 | free-nodes - undefinedms
-      - 未知 VMESS-15 | free-nodes - undefinedms
-      - 未知 VMESS-16 | free-nodes - undefinedms
-      - 未知 VMESS-17 | free-nodes - undefinedms
       - 🇫🇷_法国 - undefinedms
       - 🇫🇷_法国 (3) - undefinedms
       - 🇹🇼_台湾 - undefinedms
@@ -664,8 +638,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -677,20 +649,19 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
+      - CA VMESS-03 | free-nodes - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - CA VMESS-02 | free-nodes - undefinedms
-      - 未知 VMESS-14 | free-nodes - undefinedms
-      - 未知 VMESS-15 | free-nodes - undefinedms
-      - 未知 VMESS-16 | free-nodes - undefinedms
-      - 未知 VMESS-17 | free-nodes - undefinedms
       - 🇫🇷_法国 - undefinedms
       - 🇫🇷_法国 (3) - undefinedms
       - 🇹🇼_台湾 - undefinedms
@@ -719,8 +690,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -732,5 +701,7 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
 rules:
   - MATCH,Proxy
